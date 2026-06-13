@@ -1,0 +1,1882 @@
+[
+  {
+    "qid": "fc_a_001",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text01",
+      "text02"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text20",
+      "text01",
+      "text02",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_002",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text01",
+      "text14"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "14",
+      "pack2_text13",
+      "pack2_text14",
+      "pack2_text15",
+      "pack2_text18",
+      "pack2_text19",
+      "text01",
+      "text11",
+      "text13",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_003",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "doc_ids": [
+      "text01",
+      "text03"
+    ],
+    "n_evidence": 23,
+    "docs_covered": [
+      "1",
+      "text01",
+      "text03",
+      "text10",
+      "text13",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_004",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text01",
+      "text13"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "text01",
+      "text13",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_005",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text01",
+      "text10"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "text01",
+      "text10",
+      "text12",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_006",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "doc_ids": [
+      "text01",
+      "text04"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "4",
+      "pack2_text10",
+      "text01",
+      "text04",
+      "text11",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_007",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text02",
+      "text14"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text20",
+      "text01",
+      "text02",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_008",
+    "domain": "financial_contracts",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "text02",
+      "text03"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "3",
+      "pack2_text03",
+      "text02",
+      "text03"
+    ]
+  },
+  {
+    "qid": "fc_a_009",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text02",
+      "text10"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text20",
+      "text01",
+      "text02",
+      "text10"
+    ]
+  },
+  {
+    "qid": "fc_a_010",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "doc_ids": [
+      "text02",
+      "text06"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "6",
+      "pack2_text06",
+      "pack2_text20",
+      "text02",
+      "text06"
+    ]
+  },
+  {
+    "qid": "fc_a_011",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text02",
+      "text07"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "pack2_text20",
+      "text02",
+      "text07"
+    ]
+  },
+  {
+    "qid": "fc_a_012",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text03",
+      "text13"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "13",
+      "text01",
+      "text03",
+      "text13"
+    ]
+  },
+  {
+    "qid": "fc_a_013",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "doc_ids": [
+      "text03",
+      "text10"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "3",
+      "pack2_text03",
+      "pack2_text10",
+      "text01",
+      "text03",
+      "text10"
+    ]
+  },
+  {
+    "qid": "fc_a_014",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text03",
+      "text08"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "3",
+      "8",
+      "text03",
+      "text08"
+    ]
+  },
+  {
+    "qid": "fc_a_015",
+    "domain": "financial_contracts",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "text03",
+      "text14"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "text01",
+      "text03",
+      "text14"
+    ]
+  },
+  {
+    "qid": "fc_a_016",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text04",
+      "text09"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "pack2_text04",
+      "text04",
+      "text09"
+    ]
+  },
+  {
+    "qid": "fc_a_017",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text04",
+      "text05"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "4",
+      "pack2_text04",
+      "pack2_text05",
+      "text04",
+      "text05"
+    ]
+  },
+  {
+    "qid": "fc_a_018",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "doc_ids": [
+      "text04",
+      "text06"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "4",
+      "6",
+      "text04",
+      "text06"
+    ]
+  },
+  {
+    "qid": "fc_a_019",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text04",
+      "text07"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "7",
+      "pack2_text04",
+      "text04",
+      "text07"
+    ]
+  },
+  {
+    "qid": "fc_a_020",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "doc_ids": [
+      "text04",
+      "text11"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "text01",
+      "text04",
+      "text11"
+    ]
+  },
+  {
+    "qid": "fin_a_001",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_byd_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_byd_2024_report",
+      "annual_byd_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_002",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_catl_2024_report",
+      "annual_catl_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_catl_2024_report",
+      "annual_catl_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_003",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "doc_ids": [
+      "annual_cscec_2024_report",
+      "annual_cscec_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_cscec_2024_report",
+      "annual_cscec_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_004",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_midea_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_midea_2024_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_005",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_midea_2024_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "annual_byd_2024_report",
+      "annual_midea_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_006",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "4",
+      "5",
+      "annual_byd_2024_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_007",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_catl_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_byd_2024_report",
+      "annual_catl_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_008",
+    "domain": "financial_reports",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_catl_2024_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_byd_2024_report",
+      "annual_catl_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_009",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_byd_2024_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_byd_2024_report",
+      "annual_chinamobile_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_010",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_midea_2024_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_byd_2025_report",
+      "annual_midea_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_011",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_midea_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "annual_byd_2025_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_012",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_byd_2025_report",
+      "annual_chinamobile_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_013",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_catl_2024_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_byd_2025_report",
+      "annual_catl_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_014",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_byd_2025_report",
+      "annual_catl_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_byd_2025_report",
+      "annual_catl_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_015",
+    "domain": "financial_reports",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "annual_catl_2024_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_catl_2024_report",
+      "annual_chinamobile_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_016",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_catl_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_catl_2024_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_017",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_catl_2024_report",
+      "annual_cscec_2024_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "annual_catl_2024_report",
+      "annual_cscec_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_018",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "doc_ids": [
+      "annual_catl_2025_report",
+      "annual_midea_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "5",
+      "annual_catl_2025_report",
+      "annual_midea_2025_report"
+    ]
+  },
+  {
+    "qid": "fin_a_019",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_catl_2025_report",
+      "annual_midea_2024_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_catl_2025_report",
+      "annual_midea_2024_report"
+    ]
+  },
+  {
+    "qid": "fin_a_020",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "doc_ids": [
+      "annual_catl_2025_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "annual_catl_2025_report",
+      "annual_chinamobile_2025_report"
+    ]
+  },
+  {
+    "qid": "ins_a_001",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "1",
+      "2",
+      "15",
+      "16"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "15",
+      "16",
+      "2",
+      "5",
+      "pack2_text04",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "text02",
+      "text10",
+      "text11",
+      "text14"
+    ]
+  },
+  {
+    "qid": "ins_a_002",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "1",
+      "2",
+      "16"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "15",
+      "16",
+      "2",
+      "6",
+      "csrc_0314",
+      "pack2_text04",
+      "pack2_text15",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "text02"
+    ]
+  },
+  {
+    "qid": "ins_a_003",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "3",
+      "5",
+      "6"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "13",
+      "3",
+      "5",
+      "pack2_text15",
+      "text03",
+      "text05",
+      "text06"
+    ]
+  },
+  {
+    "qid": "ins_a_004",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "4",
+      "5",
+      "6",
+      "12"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "12",
+      "14",
+      "2",
+      "4",
+      "5",
+      "6",
+      "annual_catl_2025_report",
+      "annual_midea_2024_report",
+      "pack2_text14",
+      "strict_csrc_0005_att2",
+      "strict_csrc_0036_att2",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "text05"
+    ]
+  },
+  {
+    "qid": "ins_a_005",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "1",
+      "4",
+      "7",
+      "13"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "11",
+      "12",
+      "13",
+      "14",
+      "3",
+      "4",
+      "7",
+      "csrc_0071",
+      "csrc_0087",
+      "csrc_0271",
+      "pack2_text14",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ]
+  },
+  {
+    "qid": "ins_a_006",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "5",
+      "6"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "5",
+      "6",
+      "annual_cscec_2025_report",
+      "strict_csrc_0053_att1",
+      "text05",
+      "text06"
+    ]
+  },
+  {
+    "qid": "ins_a_007",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "1",
+      "2",
+      "16"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "15",
+      "16",
+      "2",
+      "annual_byd_2024_report",
+      "annual_cmb_2025_report",
+      "pack2_text15",
+      "strict_csrc_0027_att1",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "text11",
+      "text12",
+      "text14"
+    ]
+  },
+  {
+    "qid": "ins_a_008",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "3",
+      "4",
+      "5"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "13",
+      "14",
+      "3",
+      "5",
+      "annual_cscec_2024_report",
+      "pack2_text04",
+      "strict_csrc_0014_att1",
+      "text04",
+      "text14"
+    ]
+  },
+  {
+    "qid": "ins_a_009",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "7",
+      "8",
+      "9"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "7",
+      "8",
+      "9",
+      "csrc_0089",
+      "csrc_0285",
+      "csrc_0291",
+      "csrc_0292",
+      "csrc_0348",
+      "csrc_0367",
+      "strict_csrc_0008_att1",
+      "strict_csrc_0037_att1",
+      "strict_csrc_0038_att1",
+      "strict_csrc_0048_att1",
+      "text07",
+      "text08",
+      "text09"
+    ]
+  },
+  {
+    "qid": "ins_a_010",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "1",
+      "2",
+      "4",
+      "16"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "16",
+      "2",
+      "4",
+      "annual_catl_2024_report",
+      "annual_cscec_2024_report",
+      "annual_midea_2024_report",
+      "annual_midea_2025_report",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "text01",
+      "text04",
+      "text14"
+    ]
+  },
+  {
+    "qid": "ins_a_011",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "3",
+      "5",
+      "6",
+      "8"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "5",
+      "8",
+      "strict_csrc_0038_att1",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）",
+      "text03",
+      "text05",
+      "text06",
+      "text08"
+    ]
+  },
+  {
+    "qid": "ins_a_012",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "2",
+      "6",
+      "11",
+      "14"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "11",
+      "12",
+      "14",
+      "2",
+      "4",
+      "6",
+      "pack2_text14",
+      "text06",
+      "text11",
+      "text14"
+    ]
+  },
+  {
+    "qid": "ins_a_013",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "1",
+      "15",
+      "16"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "15",
+      "16",
+      "6",
+      "pack2_text15",
+      "text14"
+    ]
+  },
+  {
+    "qid": "ins_a_014",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "14",
+      "4",
+      "5",
+      "7",
+      "8",
+      "annual_cscec_2024_report",
+      "csrc_0087",
+      "csrc_0089",
+      "csrc_0367",
+      "strict_csrc_0008_att1",
+      "strict_csrc_0037_att1",
+      "strict_csrc_0038_att1",
+      "strict_csrc_0049_att1",
+      "strict_v3_017_中华人民共和国反洗钱法",
+      "text04",
+      "text07"
+    ]
+  },
+  {
+    "qid": "ins_a_015",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "1",
+      "4",
+      "7",
+      "13"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "16",
+      "3",
+      "4",
+      "7",
+      "annual_cscec_2024_report",
+      "csrc_0204",
+      "csrc_0313",
+      "pack2_text14",
+      "strict_csrc_0037_att1",
+      "text01",
+      "text04",
+      "text13",
+      "text14"
+    ]
+  },
+  {
+    "qid": "ins_a_016",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "10",
+      "16",
+      "5",
+      "9",
+      "annual_cmb_2025_report",
+      "annual_cscec_2025_report",
+      "pack2_text15",
+      "strict_csrc_0049_att1",
+      "text05",
+      "text06",
+      "text09",
+      "text10"
+    ]
+  },
+  {
+    "qid": "ins_a_017",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "2",
+      "3",
+      "8",
+      "11"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "11",
+      "12",
+      "13",
+      "2",
+      "3",
+      "8",
+      "strict_csrc_0036_att2",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "text03",
+      "text11"
+    ]
+  },
+  {
+    "qid": "ins_a_018",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "13",
+      "14",
+      "16",
+      "3",
+      "4",
+      "5",
+      "6",
+      "annual_cmb_2025_report",
+      "csrc_0269",
+      "pack2_text14",
+      "strict_csrc_0036_att2",
+      "text03",
+      "text06",
+      "text14"
+    ]
+  },
+  {
+    "qid": "ins_a_019",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "doc_ids": [
+      "1",
+      "2",
+      "4",
+      "16"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "15",
+      "16",
+      "2",
+      "4",
+      "6",
+      "annual_catl_2024_report",
+      "pack2_text14",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "text01",
+      "text02",
+      "text04"
+    ]
+  },
+  {
+    "qid": "ins_a_020",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "5",
+      "6",
+      "12"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "12",
+      "5",
+      "csrc_0112",
+      "csrc_0124",
+      "csrc_0212",
+      "csrc_0312",
+      "csrc_0369",
+      "strict_csrc_0036_att2",
+      "strict_csrc_0053_att1",
+      "text06",
+      "text12"
+    ]
+  },
+  {
+    "qid": "reg_a_001",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "3",
+      "5",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）"
+    ]
+  },
+  {
+    "qid": "reg_a_002",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "12",
+      "2",
+      "3",
+      "7",
+      "8",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ]
+  },
+  {
+    "qid": "reg_a_003",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "doc_ids": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "2",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）"
+    ]
+  },
+  {
+    "qid": "reg_a_004",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "12",
+      "2",
+      "3",
+      "5",
+      "6",
+      "8",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）"
+    ]
+  },
+  {
+    "qid": "reg_a_005",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "3",
+      "4",
+      "5",
+      "8",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）"
+    ]
+  },
+  {
+    "qid": "reg_a_006",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "doc_ids": [
+      "csrc_0009_att1",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "2",
+      "9",
+      "csrc_0090",
+      "csrc_0091",
+      "csrc_0095",
+      "csrc_0096",
+      "csrc_0097",
+      "strict_csrc_0009_att1",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）"
+    ]
+  },
+  {
+    "qid": "reg_a_007",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "3",
+      "7",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ]
+  },
+  {
+    "qid": "reg_a_008",
+    "domain": "regulatory",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "11",
+      "16",
+      "2",
+      "3",
+      "9",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）"
+    ]
+  },
+  {
+    "qid": "reg_a_009",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "2",
+      "3",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）"
+    ]
+  },
+  {
+    "qid": "reg_a_010",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "doc_ids": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "2",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）"
+    ]
+  },
+  {
+    "qid": "reg_a_011",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "csrc_0038_att1",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "2",
+      "3",
+      "5",
+      "8",
+      "9",
+      "strict_csrc_0038_att1",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）"
+    ]
+  },
+  {
+    "qid": "reg_a_012",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "csrc_0023_att1",
+      "csrc_0038_att1"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "3",
+      "8",
+      "strict_csrc_0023_att1",
+      "strict_csrc_0038_att1"
+    ]
+  },
+  {
+    "qid": "reg_a_013",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "doc_ids": [
+      "csrc_0023_att1",
+      "csrc_0037_att1"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "3",
+      "csrc_0238",
+      "csrc_0377",
+      "strict_csrc_0023_att1",
+      "strict_csrc_0037_att1"
+    ]
+  },
+  {
+    "qid": "reg_a_014",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "csrc_0023_att1",
+      "csrc_0035_att1"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "3",
+      "csrc_0230",
+      "csrc_0352",
+      "csrc_0354",
+      "csrc_0357",
+      "strict_csrc_0023_att1",
+      "strict_csrc_0035_att1"
+    ]
+  },
+  {
+    "qid": "reg_a_015",
+    "domain": "regulatory",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "csrc_0009_att1",
+      "csrc_0023_att1"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "3",
+      "9",
+      "csrc_0092",
+      "csrc_0095",
+      "strict_csrc_0009_att1",
+      "strict_csrc_0023_att1"
+    ]
+  },
+  {
+    "qid": "reg_a_016",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "csrc_0023_att1",
+      "csrc_0271"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "2",
+      "7",
+      "csrc_0230",
+      "csrc_0231",
+      "csrc_0232",
+      "csrc_0236",
+      "csrc_0237",
+      "csrc_0239",
+      "csrc_0271",
+      "strict_csrc_0002_att1",
+      "strict_csrc_0023_att1",
+      "strict_csrc_0027_att1"
+    ]
+  },
+  {
+    "qid": "reg_a_017",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "csrc_0023_att1",
+      "csrc_0262"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "6",
+      "csrc_0230",
+      "csrc_0262",
+      "strict_csrc_0002_att1",
+      "strict_csrc_0023_att1"
+    ]
+  },
+  {
+    "qid": "reg_a_018",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "doc_ids": [
+      "csrc_0009_att1",
+      "csrc_0027_att1"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "9",
+      "csrc_0091",
+      "csrc_0096",
+      "csrc_0097",
+      "csrc_0274",
+      "csrc_0276",
+      "strict_csrc_0009_att1",
+      "strict_csrc_0027_att1",
+      "strict_csrc_0027_att2"
+    ]
+  },
+  {
+    "qid": "reg_a_019",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "csrc_0027_att1",
+      "csrc_0377"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "3",
+      "csrc_0003",
+      "csrc_0271",
+      "csrc_0274",
+      "csrc_0277",
+      "csrc_0278",
+      "csrc_0377",
+      "strict_csrc_0003_att1",
+      "strict_csrc_0003_att2",
+      "strict_csrc_0027_att1",
+      "strict_csrc_0037_att1"
+    ]
+  },
+  {
+    "qid": "reg_a_020",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "doc_ids": [
+      "csrc_0027_att1",
+      "csrc_0037_att1"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "3",
+      "7",
+      "csrc_0270",
+      "csrc_0274",
+      "csrc_0370",
+      "csrc_0374",
+      "csrc_0376",
+      "strict_csrc_0002_att1",
+      "strict_csrc_0003_att2",
+      "strict_csrc_0027_att1",
+      "strict_csrc_0037_att1"
+    ]
+  },
+  {
+    "qid": "res_a_001",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text17"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "pack2_text01",
+      "pack2_text12",
+      "pack2_text13",
+      "pack2_text14",
+      "pack2_text15",
+      "pack2_text16",
+      "pack2_text17",
+      "pack2_text18",
+      "text01"
+    ]
+  },
+  {
+    "qid": "res_a_002",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text11"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "pack2_text01",
+      "pack2_text11",
+      "pack2_text13",
+      "pack2_text14",
+      "pack2_text15",
+      "pack2_text16",
+      "pack2_text17",
+      "text01"
+    ]
+  },
+  {
+    "qid": "res_a_003",
+    "domain": "research",
+    "answer_format": "tf",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text19"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "1",
+      "2",
+      "pack2_text01",
+      "pack2_text10",
+      "pack2_text19",
+      "text01"
+    ]
+  },
+  {
+    "qid": "res_a_004",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text09"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text01",
+      "pack2_text09",
+      "pack2_text12",
+      "pack2_text14",
+      "pack2_text15",
+      "pack2_text18",
+      "text09"
+    ]
+  },
+  {
+    "qid": "res_a_005",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text03"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "3",
+      "pack2_text01",
+      "pack2_text03",
+      "pack2_text12",
+      "pack2_text14",
+      "pack2_text15",
+      "pack2_text16",
+      "pack2_text18",
+      "text01",
+      "text03"
+    ]
+  },
+  {
+    "qid": "res_a_006",
+    "domain": "research",
+    "answer_format": "tf",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text10"
+    ],
+    "n_evidence": 17,
+    "docs_covered": [
+      "2",
+      "pack2_text01",
+      "pack2_text10",
+      "pack2_text12",
+      "pack2_text13",
+      "pack2_text14",
+      "text01"
+    ]
+  },
+  {
+    "qid": "res_a_007",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text17"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "pack2_text20",
+      "text01",
+      "text02"
+    ]
+  },
+  {
+    "qid": "res_a_008",
+    "domain": "research",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text11"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "pack2_text11",
+      "pack2_text20",
+      "text01",
+      "text02",
+      "text11"
+    ]
+  },
+  {
+    "qid": "res_a_009",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text01",
+      "pack2_text02"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text01",
+      "pack2_text02",
+      "pack2_text12",
+      "pack2_text14",
+      "pack2_text15",
+      "pack2_text20",
+      "text02"
+    ]
+  },
+  {
+    "qid": "res_a_010",
+    "domain": "research",
+    "answer_format": "tf",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text08"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text08",
+      "pack2_text20",
+      "text02",
+      "text08"
+    ]
+  },
+  {
+    "qid": "res_a_011",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text10"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text01",
+      "pack2_text10",
+      "pack2_text20",
+      "text01",
+      "text02",
+      "text10"
+    ]
+  },
+  {
+    "qid": "res_a_012",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text02",
+      "pack2_text09"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text09",
+      "pack2_text20",
+      "text02",
+      "text09"
+    ]
+  },
+  {
+    "qid": "res_a_013",
+    "domain": "research",
+    "answer_format": "tf",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text13"
+    ],
+    "n_evidence": 23,
+    "docs_covered": [
+      "2",
+      "pack2_text03",
+      "pack2_text13",
+      "text01",
+      "text03"
+    ]
+  },
+  {
+    "qid": "res_a_014",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text09"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "pack2_text03",
+      "pack2_text09",
+      "text03",
+      "text09"
+    ]
+  },
+  {
+    "qid": "res_a_015",
+    "domain": "research",
+    "answer_format": "mcq",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text14"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "pack2_text03",
+      "pack2_text14",
+      "text01",
+      "text03",
+      "text14"
+    ]
+  },
+  {
+    "qid": "res_a_016",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text20"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text03",
+      "pack2_text20",
+      "text02",
+      "text03"
+    ]
+  },
+  {
+    "qid": "res_a_017",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text03",
+      "pack2_text17"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text03",
+      "text01",
+      "text03"
+    ]
+  },
+  {
+    "qid": "res_a_018",
+    "domain": "research",
+    "answer_format": "tf",
+    "doc_ids": [
+      "pack2_text04",
+      "pack2_text07"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text04",
+      "pack2_text07",
+      "text04",
+      "text07"
+    ]
+  },
+  {
+    "qid": "res_a_019",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text04",
+      "pack2_text06"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text04",
+      "text04",
+      "text06"
+    ]
+  },
+  {
+    "qid": "res_a_020",
+    "domain": "research",
+    "answer_format": "multi",
+    "doc_ids": [
+      "pack2_text04",
+      "pack2_text09"
+    ],
+    "n_evidence": 24,
+    "docs_covered": [
+      "2",
+      "pack2_text04",
+      "pack2_text09",
+      "text04",
+      "text09"
+    ]
+  }
+]

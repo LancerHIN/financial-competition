@@ -1,0 +1,13 @@
+pymupdf
+pdfplumber
+pandas
+numpy
+tqdm
+jieba
+rank-bm25
+beautifulsoup4
+lxml
+dashscope
+pydantic
+python-dotenv
+mineru

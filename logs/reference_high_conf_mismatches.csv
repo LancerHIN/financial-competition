@@ -1,0 +1,41 @@
+﻿qid,domain,format,current,reference,confidence,unknown_count,evidence_per_option,reason
+fc_a_002,financial_contracts,multi,D,ABD,high,2,"{""A"": 3, ""B"": 1, ""C"": 1, ""D"": 2}",text14主体AAA且20亿元并为西部证券；text01主体亦为AAA且10亿元
+fc_a_003,financial_contracts,tf,B,A,high,0,"{""A"": 2, ""B"": 2}",两文档均承诺及时公平履行信息披露义务
+fc_a_004,financial_contracts,multi,AB,A,high,0,"{""A"": 1, ""B"": 2, ""C"": 2, ""D"": 1}",text01本期发行规模不超过10亿元；其他项与text13不符
+fc_a_005,financial_contracts,multi,AB,ABD,high,0,"{""A"": 2, ""B"": 1, ""C"": 1, ""D"": 0}",text01发行人为广晟；text10为发行股份购买资产并募资且力诺投资43.24%
+fc_a_006,financial_contracts,tf,B,A,high,0,"{""A"": 3, ""B"": 3}",text01提及回售选择权相关表决；text04明确回售赎回条款
+fc_a_008,financial_contracts,mcq,D,B,high,0,"{""A"": 1, ""B"": 1, ""C"": 1, ""D"": 3}",text03违约金公式含票面利率乘150%
+fc_a_009,financial_contracts,multi,B,ABD,high,3,"{""A"": 0, ""B"": 2, ""C"": 0, ""D"": 1}",text02主体评级AA+且提及违约记录；text10力诺投资43.24%且有补偿风险
+fc_a_011,financial_contracts,multi,A,AB,high,2,"{""A"": 1, ""B"": 0, ""C"": 1, ""D"": 0}",text02发行人含深圳市融资租赁且上限5亿元；text07上市地为深交所
+fc_a_012,financial_contracts,multi,C,AC,high,2,"{""A"": 0, ""B"": 1, ""C"": 1, ""D"": 0}",text03回售或赎回兑付日为2031年4月23日；text13资产负债率下降
+fc_a_015,financial_contracts,mcq,A,B,high,1,"{""A"": 2, ""B"": 2, ""C"": 0, ""D"": 1}",text14注册金额明确为不超过180亿元
+fc_a_016,financial_contracts,multi,B,BC,high,2,"{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 0}",text04和text09均有有条件赎回；text09称全部转股后资产负债率26.99%
+fc_a_019,financial_contracts,multi,A,B,high,2,"{""A"": 0, ""B"": 1, ""C"": 0, ""D"": 1}",text07列示资产负债率5.70%和35.83%
+fin_a_001,financial_reports,multi,B,AB,high,1,"{""A"": 0, ""B"": 2, ""C"": 2, ""D"": 2}",2025营收增长且归母净利下滑，经营现金流和研发占比表述不符
+fin_a_002,financial_reports,multi,A,ABD,high,3,"{""A"": 0, ""B"": 0, ""C"": 0, ""D"": 3}",2025营收增长且分红金额更高并按净利50%分红，经营现金流增加非减少
+fin_a_004,financial_reports,multi,A,ABD,high,4,"{""A"": 0, ""B"": 0, ""C"": 0, ""D"": 0}",2025收入增速更高且经营现金流下降，现金分红加回购超过归母净利
+fin_a_005,financial_reports,multi,B,ABD,high,2,"{""A"": 0, ""B"": 2, ""C"": 0, ""D"": 1}",比亚迪收入和研发强度更高，美的现金流不高于比亚迪，双方归母净利均双位数增长
+fin_a_007,financial_reports,multi,AD,ABD,high,1,"{""A"": 1, ""B"": 1, ""C"": 0, ""D"": 1}",BYD研发占比6.97%，CATL每10股69.57元且经营现金流增37.35%
+fin_a_009,financial_reports,multi,A,ABC,high,3,"{""A"": 1, ""B"": 1, ""C"": 1, ""D"": 0}",中国移动营收超万亿，BYD研发占比更高且两者经营现金流均为正
+fin_a_010,financial_reports,tf,B,A,high,0,"{""A"": 1, ""B"": 0}",BYD研发占比由6.97%升至7.89%，美的披露自2019起连续四年回购
+fin_a_011,financial_reports,multi,B,ACD,high,4,"{""A"": 0, ""B"": 1, ""C"": 1, ""D"": 1}",美的净利增速高且每10股分红高于BYD，双方经营现金流均为正
+fin_a_012,financial_reports,multi,A,ABD,high,2,"{""A"": 2, ""B"": 0, ""C"": 2, ""D"": 1}",中国移动营收更大，BYD净利降18.97%，双方经营现金流同比下降
+fin_a_014,financial_reports,multi,B,AB,high,3,"{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 0}",CATL营收增速高于BYD且按净利50%现金分红，BYD研发占比和现金流增长项不符
+fin_a_017,financial_reports,multi,A,AC,high,3,"{""A"": 0, ""B"": 0, ""C"": 0, ""D"": 4}",CATL筹资现金流减少约292亿元，中国建筑分红比例24.29%，新签合同额非2.19万亿且CATL不送股
+fin_a_019,financial_reports,multi,ABD,AB,high,3,"{""A"": 0, ""B"": 0, ""C"": 2, ""D"": 0}",CATL按净利50%分红，美的披露自2019起连续四年回购
+fin_a_020,financial_reports,multi,A,ABC,high,3,"{""A"": 2, ""B"": 0, ""C"": 0, ""D"": 0}",中国移动营收超CATL两倍，CATL经营现金流1332亿元，中国移动研发费用占比3.9%
+ins_a_006,insurance,mcq,C,A,high,0,"{""A"": 2, ""B"": 1, ""C"": 2, ""D"": 1}",e生保家庭自费2.1万扣共享免赔1万 太保王某自费1.2万扣1万
+ins_a_007,insurance,multi,B,BC,high,3,"{""A"": 1, ""B"": 1, ""C"": 0, ""D"": 2}",增益宝可借现金价值扣欠款后80% 富鸿个人养老金投保不接受贷款
+ins_a_015,insurance,multi,B,AB,high,1,"{""A"": 0, ""B"": 2, ""C"": 1, ""D"": 1}",智盈和安佑福均列明2年内自杀免责且有无民事行为能力例外
+ins_a_020,insurance,mcq,A,D,high,3,"{""A"": 1, ""B"": 0, ""C"": 0, ""D"": 2}",家财险赔地板损失 普通门诊医疗未达或不属百万医疗赔付条件
+reg_a_001,regulatory,multi,C,AC,high,0,"{""A"": 1, ""B"": 1, ""C"": 1, ""D"": 2}",差异报告30个工作日且较高风险以上存量6个月
+reg_a_002,regulatory,multi,B,ABC,high,3,"{""A"": 0, ""B"": 1, ""C"": 0, ""D"": 1}",资料保存10年重大差异30个工作日且反洗钱信息保密
+reg_a_004,regulatory,multi,AC,ABC,high,1,"{""A"": 1, ""B"": 0, ""C"": 1, ""D"": 1}",董高变动7日重大差异30个工作日撤并分支提前30日
+reg_a_005,regulatory,multi,B,ABC,high,2,"{""A"": 0, ""B"": 1, ""C"": 0, ""D"": 1}",同机构调任10日报告上市公司留存照片收费调整提前30日
+reg_a_007,regulatory,multi,AD,ACD,high,2,"{""A"": 1, ""B"": 0, ""C"": 0, ""D"": 1}",新办法2026施行废旧规第三方高风险不得依托保单贷款1万元以上核身
+reg_a_009,regulatory,multi,AB,BD,high,1,"{""A"": 1, ""B"": 1, ""C"": 0, ""D"": 2}",核心数据提供前风险评估且安全事件补救可从轻减轻
+reg_a_014,regulatory,multi,AB,ABD,high,1,"{""A"": 1, ""B"": 1, ""C"": 1, ""D"": 0}",股东会审议董事会报告披露董事候选人并审议募集资金变更
+res_a_006,research,tf,B,A,high,0,"{""A"": 2, ""B"": 2}",杠杆上升且自有资产净利率下降
+res_a_009,research,multi,B,ABC,high,4,"{""A"": 0, ""B"": 1, ""C"": 0, ""D"": 0}",韩国银保和检测规则及欧盟份额均支持
+res_a_018,research,tf,B,A,high,0,"{""A"": 1, ""B"": 1}",渗透率51.5%且宁德份额25%
+res_a_020,research,multi,ABC,A,high,3,"{""A"": 2, ""B"": 0, ""C"": 0, ""D"": 0}",IPnest统计2024年IP授权份额

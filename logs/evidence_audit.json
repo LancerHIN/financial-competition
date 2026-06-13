@@ -1,0 +1,9000 @@
+[
+  {
+    "qid": "fc_a_001",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "AD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text01",
+      "text02"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text01",
+      "text02"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 10,
+        "facts": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 4,
+        "facts": [
+          [
+            "indicators",
+            "受托管理人"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "受托管理人"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "受托管理人"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fc_a_002",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text01",
+      "text14"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text01",
+      "text14"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 14,
+        "facts": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 6,
+        "facts": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "fc_a_003",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "answer": "B",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text01",
+      "text03"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text01",
+      "text03"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 9
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 3
+      }
+    }
+  },
+  {
+    "qid": "fc_a_004",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "AD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text01",
+      "text13"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text01",
+      "text13"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 1,
+      "retrieval_doc": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 16,
+        "facts": [
+          [
+            "money",
+            "10亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "10亿元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "10亿元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 16,
+        "facts": [
+          [
+            "money",
+            "180亿元"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 12,
+        "facts": [
+          [
+            "percents",
+            "63%"
+          ],
+          [
+            "percents",
+            "66%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "63%"
+          ],
+          [
+            "percents",
+            "66%"
+          ]
+        ],
+        "in_quote": [],
+        "stage": "retrieval_doc"
+      }
+    }
+  },
+  {
+    "qid": "fc_a_005",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text01",
+      "text10"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text01",
+      "text10"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 1
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 8,
+        "facts": [
+          [
+            "percents",
+            "43.24%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "43.24%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "43.24%"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fc_a_006",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text01",
+      "text04"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text01",
+      "text04"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "fc_a_007",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "BD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 26,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text02",
+      "text14"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text02",
+      "text14"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 3,
+        "facts": [
+          [
+            "indicators",
+            "发行规模"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "发行规模"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "发行规模"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      }
+    }
+  },
+  {
+    "qid": "fc_a_008",
+    "domain": "financial_contracts",
+    "answer_format": "mcq",
+    "answer": "B",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 26,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text02",
+      "text03"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text02",
+      "text03"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "n_evi": 17,
+        "facts": [
+          [
+            "money",
+            "10亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "10亿元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "10亿元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 6,
+        "facts": [
+          [
+            "percents",
+            "150%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "150%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "150%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 8,
+        "facts": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 3
+      }
+    }
+  },
+  {
+    "qid": "fc_a_009",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text02",
+      "text10"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text02",
+      "text10"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 8,
+        "facts": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 11,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "43.24%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "43.24%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "43.24%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 8,
+        "facts": [
+          [
+            "money",
+            "10亿元"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 0
+      }
+    }
+  },
+  {
+    "qid": "fc_a_010",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text02",
+      "text06"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text02",
+      "text06"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "fc_a_011",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text02",
+      "text07"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text02",
+      "text07"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 8,
+        "facts": [
+          [
+            "money",
+            "10亿元"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 3
+      }
+    }
+  },
+  {
+    "qid": "fc_a_012",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "ACD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 26,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text03",
+      "text13"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text03",
+      "text13"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 6,
+        "facts": [
+          [
+            "years",
+            "2031"
+          ],
+          [
+            "indicators",
+            "回售"
+          ],
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2031"
+          ],
+          [
+            "indicators",
+            "回售"
+          ],
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2031"
+          ],
+          [
+            "indicators",
+            "回售"
+          ],
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 8,
+        "facts": [
+          [
+            "percents",
+            "63.51%"
+          ],
+          [
+            "percents",
+            "66.38%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "63.51%"
+          ],
+          [
+            "percents",
+            "66.38%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "63.51%"
+          ],
+          [
+            "percents",
+            "66.38%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 5,
+        "facts": [
+          [
+            "percents",
+            "150%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "150%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "150%"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fc_a_013",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "answer": "B",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text03",
+      "text10"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text03",
+      "text10"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "fc_a_014",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "A",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 28,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text03",
+      "text08"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text03",
+      "text08"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "B": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 7,
+        "facts": [
+          [
+            "years",
+            "2031"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2031"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2031"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 10
+      }
+    }
+  },
+  {
+    "qid": "fc_a_015",
+    "domain": "financial_contracts",
+    "answer_format": "mcq",
+    "answer": "B",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 33,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text03",
+      "text14"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text03",
+      "text14"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "n_evi": 19,
+        "facts": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "评级"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 19,
+        "facts": [
+          [
+            "money",
+            "180亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "180亿元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "180亿元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 10,
+        "facts": [
+          [
+            "percents",
+            "200%"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 10
+      }
+    }
+  },
+  {
+    "qid": "fc_a_016",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 29,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text04",
+      "text09"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text04",
+      "text09"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 12,
+        "facts": [
+          [
+            "money",
+            "19.59元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "19.59元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "19.59元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 16,
+        "facts": [
+          [
+            "percents",
+            "26.99%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "26.99%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "26.99%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 8
+      }
+    }
+  },
+  {
+    "qid": "fc_a_017",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "D",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text04",
+      "text05"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text04",
+      "text05"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 2
+      },
+      "B": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 10
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 5,
+        "facts": [
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "赎回"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fc_a_018",
+    "domain": "financial_contracts",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "review_local_rejudge_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text04",
+      "text06"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text04",
+      "text06"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 16
+      },
+      "B": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 9
+      }
+    }
+  },
+  {
+    "qid": "fc_a_019",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "B",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 30,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text04",
+      "text07"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text04",
+      "text07"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 11,
+        "facts": [
+          [
+            "percents",
+            "35.83%"
+          ],
+          [
+            "percents",
+            "5.70%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "35.83%"
+          ],
+          [
+            "percents",
+            "5.70%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "35.83%"
+          ],
+          [
+            "percents",
+            "5.70%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 8
+      }
+    }
+  },
+  {
+    "qid": "fc_a_020",
+    "domain": "financial_contracts",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 24,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "text04",
+      "text11"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "text04",
+      "text11"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 13,
+        "facts": [
+          [
+            "money",
+            "18.26元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "18.26元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "18.26元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 10
+      },
+      "C": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 12
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "fin_a_001",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2024_report",
+      "annual_byd_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2024_report",
+      "annual_byd_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 19,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 16,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 19,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 20,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_002",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_catl_2024_report",
+      "annual_catl_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_catl_2024_report",
+      "annual_catl_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 19,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 19,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 18,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 17,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_003",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_cscec_2024_report",
+      "annual_cscec_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_cscec_2024_report",
+      "annual_cscec_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "fin_a_004",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "BD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 25,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_midea_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_midea_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 2
+    },
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "n_evi": 27,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业总收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业总收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业总收入"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 27,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "insufficient",
+        "n_evi": 28,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 24,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_005",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 21,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2024_report",
+      "annual_midea_2024_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2024_report",
+      "annual_midea_2024_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 24,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 24,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 24,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 24,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_006",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "fin_a_007",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2024_report",
+      "annual_catl_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2024_report",
+      "annual_catl_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 12,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "6.97%"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "6.97%"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "6.97%"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "69.57元"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "69.57元"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "69.57元"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 16,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "30%"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "30%"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "30%"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_008",
+    "domain": "financial_reports",
+    "answer_format": "mcq",
+    "answer": "A",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 31,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2024_report",
+      "annual_catl_2024_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2024_report",
+      "annual_catl_2024_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 43,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "6.63%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "6.63%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "6.63%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 43,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "20%"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "20%"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "20%"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "insufficient",
+        "n_evi": 42,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "300.4亿元"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "归属于上市公司股东的净利润"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 40,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "45.53元"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "45.53元"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "45.53元"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_009",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 30,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2024_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2024_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 21,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "1万"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "1万"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 32,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "研发投入"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 7,
+        "facts": [
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 21,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_010",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2025_report",
+      "annual_midea_2024_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2025_report",
+      "annual_midea_2024_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 11
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 11
+      }
+    }
+  },
+  {
+    "qid": "fin_a_011",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "ACD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 24,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2025_report",
+      "annual_midea_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2025_report",
+      "annual_midea_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 6,
+        "facts": [
+          [
+            "indicators",
+            "归母净利润"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "归母净利润"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "归母净利润"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "insufficient",
+        "n_evi": 9,
+        "facts": [
+          [
+            "indicators",
+            "研发投入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "研发投入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "研发投入"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 4,
+        "facts": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 21,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_012",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "BCD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 35,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2025_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2025_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 1
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "indicators",
+            "研发费用"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "研发费用"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "研发费用"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 2
+      }
+    }
+  },
+  {
+    "qid": "fin_a_013",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2025_report",
+      "annual_catl_2024_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2025_report",
+      "annual_catl_2024_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 10
+      }
+    }
+  },
+  {
+    "qid": "fin_a_014",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "B",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 28,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_byd_2025_report",
+      "annual_catl_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_byd_2025_report",
+      "annual_catl_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "n_evi": 11,
+        "facts": [
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 30,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 7,
+        "facts": [
+          [
+            "percents",
+            "5%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "5%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "5%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 29,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_015",
+    "domain": "financial_reports",
+    "answer_format": "mcq",
+    "answer": "B",
+    "stop_reason": "review_local_rejudge_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 21,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_catl_2024_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_catl_2024_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "n_evi": 26,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "20%"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "20%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "20%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 21,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "0.9%"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "0.9%"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "0.9%"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 19,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "69.57元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 21,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "5%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "5%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "5%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_016",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_catl_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_catl_2024_report",
+      "annual_midea_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 14,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "45.53元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "45.53元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "45.53元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 14,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "38元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "38元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "38元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 13,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_017",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "AC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_catl_2024_report",
+      "annual_cscec_2024_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_catl_2024_report",
+      "annual_cscec_2024_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 20,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "292亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "292亿元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "292亿元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 20,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "2.19万"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "2.19万"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "2.19万"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 20,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "24.29%"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "24.29%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "percents",
+            "24.29%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 20,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_018",
+    "domain": "financial_reports",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_catl_2025_report",
+      "annual_midea_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_catl_2025_report",
+      "annual_midea_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "fin_a_019",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_catl_2025_report",
+      "annual_midea_2024_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_catl_2025_report",
+      "annual_midea_2024_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 16,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 5,
+        "facts": [
+          [
+            "years",
+            "2019"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2019"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2019"
+          ],
+          [
+            "indicators",
+            "股份回购"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 15,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "38元"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 17,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "money",
+            "4500亿元"
+          ],
+          [
+            "indicators",
+            "营业总收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "营业总收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "indicators",
+            "营业总收入"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "fin_a_020",
+    "domain": "financial_reports",
+    "answer_format": "multi",
+    "answer": "B",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 31,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "annual_catl_2025_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "annual_catl_2025_report",
+      "annual_chinamobile_2025_report"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 2
+    },
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "n_evi": 33,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 35,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "1332亿元"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "indicators",
+            "经营活动产生的现金流量净额"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 33,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "3.9%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "3.9%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "3.9%"
+          ],
+          [
+            "indicators",
+            "研发费用"
+          ],
+          [
+            "indicators",
+            "营业收入"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "insufficient",
+        "n_evi": 33,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "judgement"
+      }
+    }
+  },
+  {
+    "qid": "ins_a_001",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "answer": "B",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "1",
+      "2",
+      "15",
+      "16"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "1",
+      "2",
+      "15",
+      "16"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 4
+    },
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "n_evi": 4,
+        "facts": [
+          [
+            "money",
+            "144万"
+          ],
+          [
+            "money",
+            "80万"
+          ],
+          [
+            "money",
+            "85万"
+          ],
+          [
+            "money",
+            "90万"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 4,
+        "facts": [
+          [
+            "money",
+            "144万"
+          ],
+          [
+            "money",
+            "80万"
+          ],
+          [
+            "money",
+            "85万"
+          ],
+          [
+            "money",
+            "90万"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 4,
+        "facts": [
+          [
+            "money",
+            "144万"
+          ],
+          [
+            "money",
+            "80万"
+          ],
+          [
+            "money",
+            "85万"
+          ],
+          [
+            "money",
+            "90万"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 6,
+        "facts": [
+          [
+            "money",
+            "80万"
+          ],
+          [
+            "money",
+            "90万"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      }
+    }
+  },
+  {
+    "qid": "ins_a_002",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "1",
+      "2",
+      "16"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "1",
+      "2",
+      "16"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 4
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 15,
+        "facts": [
+          [
+            "money",
+            "11.5万"
+          ],
+          [
+            "money",
+            "12万"
+          ],
+          [
+            "money",
+            "9万"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 15,
+        "facts": [
+          [
+            "money",
+            "11.5万"
+          ],
+          [
+            "money",
+            "12万"
+          ],
+          [
+            "money",
+            "9万"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 10,
+        "facts": [
+          [
+            "money",
+            "11.5万"
+          ],
+          [
+            "money",
+            "11.76万"
+          ],
+          [
+            "money",
+            "9万"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 8,
+        "facts": [
+          [
+            "money",
+            "11.76万"
+          ],
+          [
+            "money",
+            "12万"
+          ],
+          [
+            "money",
+            "9万"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      }
+    }
+  },
+  {
+    "qid": "ins_a_003",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "answer": "D",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 26,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "3",
+      "5",
+      "6"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "3",
+      "5",
+      "6"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 3
+    },
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "n_evi": 19,
+        "facts": [
+          [
+            "money",
+            "13.5万"
+          ],
+          [
+            "money",
+            "4.5万"
+          ],
+          [
+            "money",
+            "4万"
+          ],
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "B": {
+        "status": "insufficient",
+        "n_evi": 19,
+        "facts": [
+          [
+            "money",
+            "13.5万"
+          ],
+          [
+            "money",
+            "4.5万"
+          ],
+          [
+            "money",
+            "4万"
+          ],
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "C": {
+        "status": "insufficient",
+        "n_evi": 19,
+        "facts": [
+          [
+            "money",
+            "13.5万"
+          ],
+          [
+            "money",
+            "4.5万"
+          ],
+          [
+            "money",
+            "4万"
+          ],
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "5万"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "ins_a_004",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "4",
+      "5",
+      "6",
+      "12"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "4",
+      "5",
+      "6",
+      "12"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 9
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 11
+      }
+    }
+  },
+  {
+    "qid": "ins_a_005",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "ABCD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 25,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "1",
+      "4",
+      "7",
+      "13"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "1",
+      "4",
+      "7",
+      "13"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      }
+    }
+  },
+  {
+    "qid": "ins_a_006",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "answer": "C",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "5",
+      "6"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "5",
+      "6"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 2
+    },
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "n_evi": 10,
+        "facts": [
+          [
+            "money",
+            "0.2万元"
+          ],
+          [
+            "money",
+            "1.1万元"
+          ],
+          [
+            "money",
+            "1.3万元"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "money",
+            "0.2万元"
+          ],
+          [
+            "money",
+            "0.9万元"
+          ],
+          [
+            "money",
+            "1.1万元"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [],
+        "stage": "parse_or_chunk"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "money",
+            "0万元"
+          ],
+          [
+            "money",
+            "1.1万元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "0万元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "0万元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "money",
+            "0.2万元"
+          ],
+          [
+            "money",
+            "0万元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "0万元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "0万元"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "ins_a_007",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "BC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 21,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "1",
+      "2",
+      "16"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "1",
+      "2",
+      "16"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "n_evi": 17,
+        "facts": [
+          [
+            "percents",
+            "80%"
+          ],
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "80%"
+          ],
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "80%"
+          ],
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 13,
+        "facts": [
+          [
+            "percents",
+            "80%"
+          ],
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "80%"
+          ],
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "80%"
+          ],
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 6
+      }
+    }
+  },
+  {
+    "qid": "ins_a_008",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "AC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 23,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "3",
+      "4",
+      "5"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "3",
+      "4",
+      "5"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 9
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 12
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 9
+      }
+    }
+  },
+  {
+    "qid": "ins_a_009",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "C",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 24,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "7",
+      "8",
+      "9"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "7",
+      "8",
+      "9"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 2
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 8
+      }
+    }
+  },
+  {
+    "qid": "ins_a_010",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 25,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "1",
+      "2",
+      "4",
+      "16"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "1",
+      "2",
+      "4",
+      "16"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 9
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 24,
+        "facts": [
+          [
+            "indicators",
+            "现金价值"
+          ],
+          [
+            "indicators",
+            "账户价值"
+          ],
+          [
+            "indicators",
+            "退保"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "现金价值"
+          ],
+          [
+            "indicators",
+            "账户价值"
+          ],
+          [
+            "indicators",
+            "退保"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "现金价值"
+          ],
+          [
+            "indicators",
+            "账户价值"
+          ],
+          [
+            "indicators",
+            "退保"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 6,
+        "facts": [
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "现金价值"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "ins_a_011",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "BC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "3",
+      "5",
+      "6",
+      "8"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "3",
+      "5",
+      "6",
+      "8"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 1
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "ins_a_012",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "A",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "2",
+      "6",
+      "11",
+      "14"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "2",
+      "6",
+      "11",
+      "14"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "B": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 15
+      },
+      "C": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 9
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 9
+      }
+    }
+  },
+  {
+    "qid": "ins_a_013",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "1",
+      "15",
+      "16"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "1",
+      "15",
+      "16"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 13
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 2
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 3
+      }
+    }
+  },
+  {
+    "qid": "ins_a_014",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 26,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "4",
+      "5",
+      "7",
+      "8"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 11
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 1
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 13
+      }
+    }
+  },
+  {
+    "qid": "ins_a_015",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "1",
+      "4",
+      "7",
+      "13"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "1",
+      "4",
+      "7",
+      "13"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 11,
+        "facts": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 5,
+        "facts": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 5,
+        "facts": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "in_doc": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "in_quote": [
+          [
+            "indicators",
+            "免责"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "ins_a_016",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "CD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "5",
+      "6",
+      "9",
+      "10"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 16
+      },
+      "B": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 15
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      }
+    }
+  },
+  {
+    "qid": "ins_a_017",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "ABCD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 25,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "2",
+      "3",
+      "8",
+      "11"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "2",
+      "3",
+      "8",
+      "11"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 16
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 2
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 1
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 7
+      }
+    }
+  },
+  {
+    "qid": "ins_a_018",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "BCD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 10
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 7
+      }
+    }
+  },
+  {
+    "qid": "ins_a_019",
+    "domain": "insurance",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 21,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "1",
+      "2",
+      "4",
+      "16"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "1",
+      "2",
+      "4",
+      "16"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "C": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 11
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 11
+      }
+    }
+  },
+  {
+    "qid": "ins_a_020",
+    "domain": "insurance",
+    "answer_format": "mcq",
+    "answer": "D",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "5",
+      "6",
+      "12"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "5",
+      "6",
+      "12"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "money",
+            "1200元"
+          ],
+          [
+            "money",
+            "2400元"
+          ],
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 17,
+        "facts": [
+          [
+            "years",
+            "2000"
+          ],
+          [
+            "money",
+            "2000元"
+          ],
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2000"
+          ],
+          [
+            "money",
+            "2000元"
+          ],
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2000"
+          ],
+          [
+            "money",
+            "2000元"
+          ],
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "money",
+            "1200元"
+          ],
+          [
+            "money",
+            "1680元"
+          ],
+          [
+            "money",
+            "480元"
+          ],
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 11,
+        "facts": [
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "8000元"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "reg_a_001",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "AC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 9
+      }
+    }
+  },
+  {
+    "qid": "reg_a_002",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "reg_a_003",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 2
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 2
+      }
+    }
+  },
+  {
+    "qid": "reg_a_004",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 10
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "reg_a_005",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 6
+      }
+    }
+  },
+  {
+    "qid": "reg_a_006",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0009_att1",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0009_att1",
+      "strict_v3_008_中国人民银行令〔2025〕第12号（金融机构客户受益所有人识别管理办法）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 3
+      }
+    }
+  },
+  {
+    "qid": "reg_a_007",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ACD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_017_中华人民共和国反洗钱法"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 6,
+        "facts": [
+          [
+            "years",
+            "2007"
+          ],
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "years",
+            "2026"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2007"
+          ],
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "years",
+            "2026"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2007"
+          ],
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "years",
+            "2026"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "money",
+            "1万元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "1万元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "1万元"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "reg_a_008",
+    "domain": "regulatory",
+    "answer_format": "mcq",
+    "answer": "A",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 23,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_016_中国人民银行_国家金融监督管理总局令〔2025〕第2号（银行卡清算机构管理办法）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 13
+      }
+    }
+  },
+  {
+    "qid": "reg_a_009",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_015_中国人民银行令〔2025〕第3号（中国人民银行业务领域数据安全管理办法）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 9
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "reg_a_010",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "answer": "B",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）",
+      "strict_v3_018_中国人民银行令〔2024〕第4号（非银行支付机构监督管理条例实施细则）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 3
+      }
+    }
+  },
+  {
+    "qid": "reg_a_011",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ACD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 28,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0038_att1",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0038_att1",
+      "strict_v3_009_中国人民银行_国家金融监督管理总局_中国证券监督管理委员会令〔2025〕第11号（金融机构客户尽职调查和客户身份资料及交易记录保存管理办法）"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 2
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 2
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 6,
+        "facts": [
+          [
+            "money",
+            "1万元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "money",
+            "1万元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "money",
+            "1万元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      }
+    }
+  },
+  {
+    "qid": "reg_a_012",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 25,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0038_att1"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0038_att1"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 10
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 5,
+        "facts": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      }
+    }
+  },
+  {
+    "qid": "reg_a_013",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "review_local_rejudge_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 24,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0037_att1"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0037_att1"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 14
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 2
+      }
+    }
+  },
+  {
+    "qid": "reg_a_014",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0035_att1"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0035_att1"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 8,
+        "facts": [
+          [
+            "indicators",
+            "担保"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [
+          [
+            "indicators",
+            "担保"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "reg_a_015",
+    "domain": "regulatory",
+    "answer_format": "mcq",
+    "answer": "C",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0009_att1",
+      "csrc_0023_att1"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0009_att1",
+      "csrc_0023_att1"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 7,
+        "facts": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "reg_a_016",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 25,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0271"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0271"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 12
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 4,
+        "facts": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "parse_or_chunk"
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "reg_a_017",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 27,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0262"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0023_att1",
+      "csrc_0262"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 11
+      },
+      "C": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 5,
+        "facts": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [
+          [
+            "indicators",
+            "现金分红"
+          ]
+        ],
+        "stage": "parse_or_chunk"
+      }
+    }
+  },
+  {
+    "qid": "reg_a_018",
+    "domain": "regulatory",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0009_att1",
+      "csrc_0027_att1"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0009_att1",
+      "csrc_0027_att1"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "reg_a_019",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0027_att1",
+      "csrc_0377"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0027_att1",
+      "csrc_0377"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "parse_or_chunk",
+    "stage_votes": {
+      "parse_or_chunk": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 6,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "parse_or_chunk"
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 8
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "D": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 4
+      }
+    }
+  },
+  {
+    "qid": "reg_a_020",
+    "domain": "regulatory",
+    "answer_format": "multi",
+    "answer": "ABD",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "csrc_0027_att1",
+      "csrc_0037_att1"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "csrc_0027_att1",
+      "csrc_0037_att1"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 7,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 8,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "res_a_001",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text01",
+      "pack2_text17"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text01",
+      "pack2_text17"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 5,
+        "facts": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "56%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "56%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "56%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 5,
+        "facts": [
+          [
+            "years",
+            "2005"
+          ],
+          [
+            "years",
+            "2018"
+          ],
+          [
+            "percents",
+            "9.9%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2005"
+          ],
+          [
+            "years",
+            "2018"
+          ],
+          [
+            "percents",
+            "9.9%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2005"
+          ],
+          [
+            "years",
+            "2018"
+          ],
+          [
+            "percents",
+            "9.9%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 10,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "8.47%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "8.47%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "8.47%"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "res_a_002",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "AC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 28,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text01",
+      "pack2_text11"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text01",
+      "pack2_text11"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 27,
+        "facts": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "900亿"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "900亿"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "900亿"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 39,
+        "facts": [
+          [
+            "percents",
+            "12%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "12%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "12%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 10,
+        "facts": [
+          [
+            "years",
+            "2029"
+          ],
+          [
+            "money",
+            "8894.3亿"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2029"
+          ],
+          [
+            "money",
+            "8894.3亿"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2029"
+          ],
+          [
+            "money",
+            "8894.3亿"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "insufficient",
+        "n_evi": 32,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "judgement"
+      }
+    }
+  },
+  {
+    "qid": "res_a_003",
+    "domain": "research",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 16,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text01",
+      "pack2_text19"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text01",
+      "pack2_text19"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 10
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 10
+      }
+    }
+  },
+  {
+    "qid": "res_a_004",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text01",
+      "pack2_text09"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text01",
+      "pack2_text09"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 14
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 12,
+        "facts": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 18,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "res_a_005",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text01",
+      "pack2_text03"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text01",
+      "pack2_text03"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 16,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 8,
+        "facts": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "5%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "5%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "5%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 10,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "res_a_006",
+    "domain": "research",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text01",
+      "pack2_text10"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text01",
+      "pack2_text10"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "res_a_007",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "AB",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 23,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text02",
+      "pack2_text17"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text02",
+      "pack2_text17"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 1
+      },
+      "B": {
+        "status": "supported",
+        "n_evi": 16,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 10
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "1139.39万元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "1139.39万元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "1139.39万元"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "res_a_008",
+    "domain": "research",
+    "answer_format": "mcq",
+    "answer": "A",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 31,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text02",
+      "pack2_text11"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text02",
+      "pack2_text11"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 23,
+        "facts": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "9000亿"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2030"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2030"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 8,
+        "facts": [
+          [
+            "years",
+            "2029"
+          ],
+          [
+            "money",
+            "8894.3亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2029"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2029"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 8
+      }
+    }
+  },
+  {
+    "qid": "res_a_009",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text01",
+      "pack2_text02"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text01",
+      "pack2_text02"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 8,
+        "facts": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "50%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 1
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 11,
+        "facts": [
+          [
+            "percents",
+            "10%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "10%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "10%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 10
+      }
+    }
+  },
+  {
+    "qid": "res_a_010",
+    "domain": "research",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "review_local_rejudge_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 24,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text02",
+      "pack2_text08"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text02",
+      "pack2_text08"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 19
+      },
+      "B": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 13
+      }
+    }
+  },
+  {
+    "qid": "res_a_011",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 23,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text02",
+      "pack2_text10"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text02",
+      "pack2_text10"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2008"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2008"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2008"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 1
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 8,
+        "facts": [
+          [
+            "percents",
+            "1.8%"
+          ],
+          [
+            "percents",
+            "4.3%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "percents",
+            "1.8%"
+          ],
+          [
+            "percents",
+            "4.3%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "percents",
+            "1.8%"
+          ],
+          [
+            "percents",
+            "4.3%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 12
+      }
+    }
+  },
+  {
+    "qid": "res_a_012",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 27,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text02",
+      "pack2_text09"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text02",
+      "pack2_text09"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 21
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 2
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 9,
+        "facts": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 9
+      }
+    }
+  },
+  {
+    "qid": "res_a_013",
+    "domain": "research",
+    "answer_format": "tf",
+    "answer": "B",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text03",
+      "pack2_text13"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text03",
+      "pack2_text13"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 5
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 5
+      }
+    }
+  },
+  {
+    "qid": "res_a_014",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "ABC",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text03",
+      "pack2_text09"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text03",
+      "pack2_text09"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 16,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 3,
+        "facts": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "5%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "5%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2022"
+          ],
+          [
+            "percents",
+            "5%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 4,
+        "facts": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2030"
+          ],
+          [
+            "money",
+            "4930亿"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "res_a_015",
+    "domain": "research",
+    "answer_format": "mcq",
+    "answer": "A",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 27,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text03",
+      "pack2_text14"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text03",
+      "pack2_text14"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 33,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "4252.91亿元"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "4252.91亿元"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "4252.91亿元"
+          ],
+          [
+            "indicators",
+            "归母净利润"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 33,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "8466亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 30,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "insufficient",
+        "n_evi": 30,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "judgement"
+      }
+    }
+  },
+  {
+    "qid": "res_a_016",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "ACD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 23,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text03",
+      "pack2_text20"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text03",
+      "pack2_text20"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "judgement",
+    "stage_votes": {
+      "judgement": 1
+    },
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 26,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "insufficient",
+        "n_evi": 25,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "judgement"
+      },
+      "C": {
+        "status": "supported",
+        "n_evi": 10,
+        "facts": [
+          [
+            "years",
+            "2023"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "4.99%"
+          ],
+          [
+            "percents",
+            "6.33%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2023"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "4.99%"
+          ],
+          [
+            "percents",
+            "6.33%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2023"
+          ],
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "percents",
+            "4.99%"
+          ],
+          [
+            "percents",
+            "6.33%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 25,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "res_a_017",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "AD",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 22,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text03",
+      "pack2_text17"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text03",
+      "pack2_text17"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 25,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ],
+          [
+            "money",
+            "2500亿元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 3
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 24,
+        "facts": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "supported",
+        "n_evi": 27,
+        "facts": [
+          [
+            "years",
+            "2023"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2023"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2023"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  },
+  {
+    "qid": "res_a_018",
+    "domain": "research",
+    "answer_format": "tf",
+    "answer": "A",
+    "stop_reason": "round1_resolved",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 20,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text04",
+      "pack2_text07"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text04",
+      "pack2_text07"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "stage": "no_facts",
+        "n_evi": 6
+      },
+      "B": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 6
+      }
+    }
+  },
+  {
+    "qid": "res_a_019",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "A",
+    "stop_reason": "two_round_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 34,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text04",
+      "pack2_text06"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text04",
+      "pack2_text06"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 25,
+        "facts": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "money",
+            "15万元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "money",
+            "15万元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "money",
+            "15万元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "insufficient",
+        "stage": "no_facts",
+        "n_evi": 7
+      },
+      "C": {
+        "status": "refuted",
+        "n_evi": 20,
+        "facts": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "percents",
+            "3.6%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "percents",
+            "3.6%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "percents",
+            "3.6%"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "D": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 15
+      }
+    }
+  },
+  {
+    "qid": "res_a_020",
+    "domain": "research",
+    "answer_format": "multi",
+    "answer": "A",
+    "stop_reason": "review_local_rejudge_a_leaderboard",
+    "supported_count": 0,
+    "unknown_count": 0,
+    "evidence_count": 23,
+    "dup_evidence_slots": 0,
+    "non_original_quotes": 0,
+    "gold_docs": [
+      "pack2_text04",
+      "pack2_text09"
+    ],
+    "candidate_docs": [],
+    "missing_gold_docs": [
+      "pack2_text04",
+      "pack2_text09"
+    ],
+    "retrieval_quality": "",
+    "primary_stage": "ok",
+    "stage_votes": {},
+    "per_option": {
+      "A": {
+        "status": "supported",
+        "n_evi": 18,
+        "facts": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2024"
+          ],
+          [
+            "years",
+            "2025"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "B": {
+        "status": "refuted",
+        "n_evi": 8,
+        "facts": [
+          [
+            "years",
+            "2028"
+          ],
+          [
+            "years",
+            "2029"
+          ],
+          [
+            "money",
+            "15万元"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2028"
+          ],
+          [
+            "years",
+            "2029"
+          ],
+          [
+            "money",
+            "15万元"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2028"
+          ],
+          [
+            "money",
+            "15万元"
+          ]
+        ],
+        "stage": "ok"
+      },
+      "C": {
+        "status": "refuted",
+        "stage": "no_facts",
+        "n_evi": 13
+      },
+      "D": {
+        "status": "refuted",
+        "n_evi": 15,
+        "facts": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "percents",
+            "3.6%"
+          ]
+        ],
+        "in_doc": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "percents",
+            "3.6%"
+          ]
+        ],
+        "in_quote": [
+          [
+            "years",
+            "2026"
+          ],
+          [
+            "percents",
+            "3.6%"
+          ]
+        ],
+        "stage": "ok"
+      }
+    }
+  }
+]

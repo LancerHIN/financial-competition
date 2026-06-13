@@ -1,0 +1,5347 @@
+[
+  {
+    "item": {
+      "qid": "gold_ins_01",
+      "domain": "insurance",
+      "answer_format": "tf",
+      "question": "根据该保险合同，犹豫期为自签收合同之日起 20 日。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "1",
+        "page": 11,
+        "quote": "6.1 犹豫期 自您签收本合同之日起，有 20日的犹豫期"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 9173,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E10",
+              "E18"
+            ],
+            "reason": "证据 E2、E10 和 E18 均明确记载“自您签收本合同之日起，有 20日的犹豫期”或“犹豫期为20日”，与题干描述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E10",
+              "E18"
+            ],
+            "reason": "证据明确显示犹豫期为20日，因此题干说法正确，选项B（错误）被反驳。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_ins_02",
+      "domain": "insurance",
+      "answer_format": "tf",
+      "question": "根据该保险合同，您在犹豫期后解除本合同的，我们自收到解除合同通知书之日起 15 日内向您退还现金价值。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "B",
+      "evidence": {
+        "doc_id": "1",
+        "page": 11,
+        "quote": "您在犹豫期后解除本合同的，我们自收到解除合同通知书之日起 30 日内向您退还本合同的现金价值"
+      },
+      "note": "原文为 30 日，题干偷换成 15 日，故错误。"
+    },
+    "expected": "B",
+    "answers": [
+      "B"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "B",
+        "tokens": 8402,
+        "judgements": {
+          "A": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3",
+              "E4",
+              "E5"
+            ],
+            "reason": "条款6.2明确规定犹豫期后解除合同，保险公司自收到通知书之日起30日内退还现金价值，而非题干所述的15日。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3",
+              "E4",
+              "E5"
+            ],
+            "reason": "题干说法与条款规定的30日退款期限不符，因此该说法错误。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "B",
+          "answer_letters": [
+            "B"
+          ],
+          "supported_letters": [
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_ins_03",
+      "domain": "insurance",
+      "answer_format": "multi",
+      "question": "关于该合同犹豫期与退保的约定，下列说法正确的有哪些？",
+      "options": {
+        "A": "犹豫期为自签收合同之日起 20 日",
+        "B": "犹豫期内可要求全额退还保险费",
+        "C": "犹豫期后解除合同自收到通知起 30 日内退还现金价值",
+        "D": "犹豫期后退保不会遭受任何损失"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "1",
+        "page": 11,
+        "quote": "犹豫期为20日，犹豫期内您可以要求全额退还保险费；犹豫期后解除合同30日内退还现金价值；犹豫期后退保可能会遭受一定损失"
+      },
+      "note": "D 与原文“犹豫期后退保可能会遭受一定损失”矛盾。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 7835,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E3",
+              "E8",
+              "E13"
+            ],
+            "reason": "条款6.1及阅读指引明确约定犹豫期为自签收合同之日起20日。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E3",
+              "E8",
+              "E13"
+            ],
+            "reason": "条款6.1及阅读指引明确约定犹豫期内解除合同将退还所支付的全部保险费。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E4",
+              "E5",
+              "E13"
+            ],
+            "reason": "条款6.2明确约定犹豫后解除合同，保险公司自收到通知书之日起30日内退还现金价值。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E4",
+              "E5",
+              "E13"
+            ],
+            "reason": "条款明确说明犹豫期后退保可能会遭受一定损失，而非不会遭受任何损失。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_01",
+      "domain": "financial_contracts",
+      "answer_format": "tf",
+      "question": "根据 text01 募集说明书，发行科技创新公司债券并上市/挂牌的，最近一期末资产负债率原则上不高于 80%。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "text01",
+        "page": 32,
+        "quote": "发行人申请发行科技创新公司债券并在本所上市或者挂牌的，最近一期末资产负债率原则上不高于80%"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 9444,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E12"
+            ],
+            "reason": "证据 E12 明确引用《深圳证券交易所公司债券发行上市审核业务指引第 7号——专项品种公司债券》第八十一条规定：'发行人申请发行科技创新公司债券并在本所上市或者挂牌的，最近一期末资产负债率原则上不高于80%。'，与题干表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E12"
+            ],
+            "reason": "证据 E12 直接支持了选项 A 的说法，因此选项 B（错误）被证伪。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_02",
+      "domain": "financial_contracts",
+      "answer_format": "tf",
+      "question": "根据 text01，本期公司债券发行金额不超过 50 亿元。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "B",
+      "evidence": {
+        "doc_id": "text01",
+        "page": 1,
+        "quote": "本期债券发行金额 不超过10亿元（含10亿元）"
+      },
+      "note": "原文为不超过 10 亿元，题干偷换成 50 亿元。"
+    },
+    "expected": "B",
+    "answers": [
+      "B"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "B",
+        "tokens": 8456,
+        "judgements": {
+          "A": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E5",
+              "E8"
+            ],
+            "reason": "证据明确记载本期债券发行规模不超过10亿元，而非题干所述的50亿元。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E5",
+              "E8"
+            ],
+            "reason": "证据显示本期债券发行金额不超过10亿元，因此题干中“不超过50亿元”的说法错误（实际限额远小于50亿，且通常此类判断题考察具体数值匹配，若指上限包含关系虽逻辑成立但金融合同题通常要求精确匹配或指出错误陈述，此处题干陈述与事实不符，故说法错误）。更严谨地，题干说“不超过50亿”，实际是“不超过10亿”。在金融合同判断题中，如果实际发行额上限是10亿，说“不超过50亿”虽然在集合论上为真（10<50），但在合同要素核对中，这属于对发行要素的错误描述（混淆了本次注册总额190亿或某期额度与本期额度，或者仅仅是数值错误）。通常这类题目意在考察是否准确识别本期发行规模。既然实际是10亿，题干说是50亿，"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "B",
+          "answer_letters": [
+            "B"
+          ],
+          "supported_letters": [
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_03",
+      "domain": "financial_contracts",
+      "answer_format": "multi",
+      "question": "根据 text02 募集说明书，关于募集资金用途与认定比例，下列说法正确的有哪些？",
+      "options": {
+        "A": "拟使用不少于 70% 的募集资金用于偿还相关有息借款",
+        "B": "本期债券发行规模不超过 5 亿元",
+        "C": "拟使用不少于 90% 的募集资金用于偿还相关有息借款",
+        "D": "本期债券发行规模不超过 30 亿元"
+      },
+      "answer": "AB",
+      "evidence": {
+        "doc_id": "text02",
+        "page": 33,
+        "quote": "拟使用不少于 70%的募集资金用于偿还……本期债券发行规模不超过 5 亿元（含 5 亿元）"
+      },
+      "note": "C 偷换比例(70%→90%)、D 偷换规模(5亿→30亿)。"
+    },
+    "expected": "AB",
+    "answers": [
+      "AB"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "AB",
+        "tokens": 8603,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E8"
+            ],
+            "reason": "证据 E1、E2、E8 均明确记载：募集资金扣除发行费用后，拟使用不少于 70% 的募集资金用于偿还相关有息借款（具体为投放科技创新领域租赁款的对应有息借款）。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E6",
+              "E8",
+              "E10"
+            ],
+            "reason": "证据 E1、E6、E8、E10 均明确记载：本期债券发行总额/规模不超过 5 亿元（含 5 亿元）。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E8"
+            ],
+            "reason": "证据 E1、E2、E8 明确指出拟使用不少于 70% 的募集资金用于偿还有息借款，而非选项所述的 90%，故该选项与证据矛盾。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E6",
+              "E8",
+              "E10"
+            ],
+            "reason": "证据 E1、E6、E8、E10 明确指出本期债券发行规模不超过 5 亿元，而非选项所述的 30 亿元（30 亿元为注册额度或历史股东会批准额度，非本期实际发行规模上限），故该选项错误。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "AB",
+          "answer_letters": [
+            "A",
+            "B"
+          ],
+          "supported_letters": [
+            "A",
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text02"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_04",
+      "domain": "financial_contracts",
+      "answer_format": "mcq",
+      "question": "根据 text02，企业从事研发和相关技术创新活动的科技人员占企业当年职工总数的比例要求是？",
+      "options": {
+        "A": "不低于 10%",
+        "B": "不低于 5%",
+        "C": "不超过 10%",
+        "D": "不低于 60%"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "text02",
+        "page": 33,
+        "quote": "企业从事研发和相关技术创新活动的科技人员占企业当年职工总数的比例不低于 10%"
+      },
+      "note": "B 偷换数字、C 反转方向、D 用的是研发费用占比口径。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 9545,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E7"
+            ],
+            "reason": "证据 E7 第④条明确规定：'企业从事研发和相关技术创新活动的科技人员占企业当年职工总数的比例不低于 10%'，与选项 A 表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E7"
+            ],
+            "reason": "证据 E7 第④条规定比例为'不低于 10%'，而非选项 B 所述的'不低于 5%'（5%是销售收入小于5000万元企业的研发费用占比要求，见第⑤条A款）。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E7"
+            ],
+            "reason": "证据 E7 第④条规定比例为'不低于 10%'，选项 C 称'不超过 10%'，方向错误。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E7"
+            ],
+            "reason": "证据 E7 第④条规定比例为'不低于 10%'，选项 D 称'不低于 60%'，数值错误（60%是境内研发费用占比或高新产品收入占比的要求）。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text02"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_01",
+      "domain": "regulatory",
+      "answer_format": "mcq",
+      "question": "根据该证监会规章，行政许可申请材料不齐全或不符合法定形式的，申请人应当在多少时间内补正申请材料？",
+      "options": {
+        "A": "30 个工作日内",
+        "B": "20 个工作日内",
+        "C": "15 个工作日内",
+        "D": "60 日内"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "strict_csrc_0002_att1",
+        "page": 3,
+        "quote": "应当在 30 个工作日内补正申请材料，无正当理由逾期不补正的，视为撤回申请"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 4855,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E12",
+              "E13"
+            ],
+            "reason": "证据E1、E2、E12、E13均明确引用第六条规定：'当事人应当在 30 个工作日内补正申请材料'，与选项A完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3",
+              "E14"
+            ],
+            "reason": "证据E3、E14显示'20 个工作日'是承诺实施部门出具受理或不予受理通知书的时限（第八条），而非申请人补正材料的时限；补正时限依据第六条为30个工作日。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E12",
+              "E13"
+            ],
+            "reason": "证据E1、E2、E12、E13明确规定补正时限为'30 个工作日'，而非选项C所述的'15 个工作日'。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E12",
+              "E13"
+            ],
+            "reason": "证据E1、E2、E12、E13明确规定补正时限单位为'工作日'且数值为'30'，选项D所述'60 日内'在数值和单位上均与法规原文不符。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0002_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_02",
+      "domain": "regulatory",
+      "answer_format": "tf",
+      "question": "根据该规章，应当自出具申请材料接收凭证之日起 20 个工作日内向当事人出具受理或不予受理通知书。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "strict_csrc_0002_att1",
+        "page": 8,
+        "quote": "应当自向当事人出具申请材料接收凭证之日起 20 个工作日内向当事人出具受理通知书或者不予受理通知书"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 4158,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4"
+            ],
+            "reason": "证据E4（第八条）明确规定：'承诺实施部门应当自向当事人出具申请材料接收凭证之日起 20 个工作日内向当事人出具受理通知书或者不予受理通知书。'，与题干表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4"
+            ],
+            "reason": "证据E4（第八条）直接支持题干说法，因此认为该说法错误的选项B被反驳。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0002_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_03",
+      "domain": "regulatory",
+      "answer_format": "tf",
+      "question": "根据 csrc_0008 该办法，外商投资证券公司应当自营业执照签发之日起 30 个工作日内向中国证监会申请经营证券业务许可证。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "B",
+      "evidence": {
+        "doc_id": "strict_csrc_0008_att1",
+        "page": 151,
+        "quote": "外商投资证券公司应当自营业执照签发之日起 15个工作日内，向中国证监会提交下列文件，申请经营证券业务许可证"
+      },
+      "note": "原文为 15 个工作日，题干偷换成 30 个工作日。"
+    },
+    "expected": "B",
+    "answers": [
+      "B"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "B",
+        "tokens": 4808,
+        "judgements": {
+          "A": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14"
+            ],
+            "reason": "证据E14（第十一条）明确规定外商投资证券公司应当自营业执照签发之日起15个工作日内申请，题干所述30个工作日与法规原文不符。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14"
+            ],
+            "reason": "题干说法错误，因为根据证据E14（第十一条），法定时限为15个工作日而非30个工作日。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "B",
+          "answer_letters": [
+            "B"
+          ],
+          "supported_letters": [
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0008_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_04",
+      "domain": "regulatory",
+      "answer_format": "multi",
+      "question": "根据 csrc_0008 该办法关于登记/报告时限的规定，下列说法正确的有哪些？",
+      "options": {
+        "A": "应当自证券从业人员从事业务之日起 5 个工作日内向证券业协会提交材料并办理登记",
+        "B": "应当在知悉有关情况之日起 5 个工作日内向中国证监会相关派出机构报告",
+        "C": "应当自证券从业人员从事业务之日起 15 个工作日内办理登记",
+        "D": "应当在知悉有关情况之日起 30 个工作日内向派出机构报告"
+      },
+      "answer": "AB",
+      "evidence": {
+        "doc_id": "strict_csrc_0008_att1",
+        "page": 179,
+        "quote": "应当自证券从业人员从事业务之日起 5 个工作日内……向证券业协会提交……登记；应当在知悉有关情况之日起 5 个工作日内向中国证监会相关派出机构报告"
+      },
+      "note": "C、D 均为 5 个工作日被偷换。"
+    },
+    "expected": "AB",
+    "answers": [
+      "AB"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "AB",
+        "tokens": 5379,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4"
+            ],
+            "reason": "证据 E4（第十七条）明确规定：'证券公司应当自证券从业人员从事业务之日起 5 个工作日内，向证券业协会提交证明其符合条件的材料和登记信息并办理登记'，与选项 A 表述一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2"
+            ],
+            "reason": "证据 E2（第三十二条）明确规定：'证券基金经营机构应当在知悉有关情况之日起 5 个工作日内向中国证监会相关派出机构报告'，与选项 B 表述一致。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4"
+            ],
+            "reason": "证据 E4（第十七条）规定时限为'5 个工作日内'，而选项 C 声称'15 个工作日内'，数值不符。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2"
+            ],
+            "reason": "证据 E2（第三十二条）规定时限为'5 个工作日内'，而选项 D 声称'30 个工作日内'，数值不符。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "AB",
+          "answer_letters": [
+            "A",
+            "B"
+          ],
+          "supported_letters": [
+            "A",
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0008_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_05",
+      "domain": "regulatory",
+      "answer_format": "mcq",
+      "question": "根据 csrc_0008，投资者拥有权益的股份达到该公众公司已发行股份的一定比例时（触发收购报告），应当在该事实发生之日起多少时间内编制收购报告书并披露？",
+      "options": {
+        "A": "2 日内",
+        "B": "5 日内",
+        "C": "3 日内",
+        "D": "10 日内"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "strict_csrc_0008_att1",
+        "page": 47,
+        "quote": "应当在该事实发生之日起 2 日内编制收购报告书，连同财务顾问专业意见和律师出具的法律意见书一并披露"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 6338,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 0.95,
+            "evidence_ids": [
+              "E12"
+            ],
+            "reason": "证据 E12（第十六条）明确规定，在特定情形下（如成为公众公司第一大股东或实际控制人且持股超10%），应当在该事实发生之日起 2 日内编制收购报告书并披露。题干询问触发收购报告时的披露时限，该证据提供了‘2日内’的直接依据。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 0.9,
+            "evidence_ids": [
+              "E12"
+            ],
+            "reason": "证据 E12 规定编制收购报告书的时限为‘2日内’，而非选项 B 所述的‘5日内’。虽然其他条款（如 E7）涉及5日，但针对‘编制收购报告书’这一具体义务，E12 明确为2日。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 0.9,
+            "evidence_ids": [
+              "E12"
+            ],
+            "reason": "证据 E12 规定编制收购报告书的时限为‘2日内’，而非选项 C 所述的‘3日内’。证据 E2、E3 中的‘3日内’针对的是‘权益变动报告书’，而非‘收购报告书’，主体和文件类型不同。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 0.9,
+            "evidence_ids": [
+              "E12"
+            ],
+            "reason": "证据 E12 规定编制收购报告书的时限为‘2日内’，而非选项 D 所述的‘10日内’。无证据支持收购报告书编制时限为10日。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0008_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_01",
+      "domain": "research",
+      "answer_format": "mcq",
+      "question": "根据 pack2_text01 的股票投资评级标准，“增持”评级对应的标准是？",
+      "options": {
+        "A": "相对沪深300指数涨幅15%以上",
+        "B": "相对沪深300指数涨幅介于5%～15%之间",
+        "C": "相对沪深300指数涨幅介于-5%～5%",
+        "D": "明显强于沪深300指数"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": null,
+        "quote": "股票投资评级 增持 相对沪深300指数涨幅15%以上"
+      },
+      "note": "B 是谨慎增持、C 是中性、D 是行业评级口径。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 7406,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ],
+            "reason": "证据 E1、E2、E3 明确列出股票投资评级中“增持”对应的标准为“相对沪深300指数涨幅15%以上”，与选项 A 完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ],
+            "reason": "证据显示“相对沪深300指数涨幅介于5%～15%之间”对应的是“谨慎增持”评级，而非“增持”。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ],
+            "reason": "证据显示“相对沪深300指数涨幅介于-5%～5%”对应的是“中性”评级，而非“增持”。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E15"
+            ],
+            "reason": "证据显示“明显强于沪深300指数”对应的是“行业投资评级”中的“增持”，而题干询问的是“股票投资评级”，股票评级有具体的数值标准（15%以上）。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_02",
+      "domain": "research",
+      "answer_format": "tf",
+      "question": "根据 pack2_text01 的评级标准，“谨慎增持”指相对沪深300指数涨幅介于 5%～15% 之间。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": null,
+        "quote": "谨慎增持 相对沪深300 指数涨幅介于5%～15%之间"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 7695,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E11"
+            ],
+            "reason": "证据 E1、E2、E11 中明确记载：'谨慎增持 | 相对沪深300 指数涨幅介于5%~15%之间'，与题干表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E11"
+            ],
+            "reason": "证据显示题干说法正确，因此选项 B（错误）被证伪。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_03",
+      "domain": "research",
+      "answer_format": "multi",
+      "question": "根据 pack2_text01 的股票投资评级标准，下列对应关系正确的有哪些？",
+      "options": {
+        "A": "增持：相对沪深300指数涨幅15%以上",
+        "B": "谨慎增持：相对沪深300指数涨幅介于5%～15%之间",
+        "C": "中性：相对沪深300指数涨幅介于-5%～5%",
+        "D": "增持：相对沪深300指数涨幅介于5%～15%之间"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": null,
+        "quote": "增持 15%以上；谨慎增持 5%～15%；中性 -5%～5%"
+      },
+      "note": "D 与 A 冲突（把增持错配成谨慎增持区间）。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 7878,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 明确列出股票投资评级中“增持”的定义为“相对沪深300指数涨幅15%以上”，与选项 A 完全一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 明确列出股票投资评级中“谨慎增持”的定义为“相对沪深300 指数涨幅介于5%~15%之间”，与选项 B 完全一致。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 明确列出股票投资评级中“中性”的定义为“相对沪深300 指数涨幅介于-5%～5%”，与选项 C 完全一致。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 显示“增持”对应的是“涨幅15%以上”，而“涨幅介于5%～15%之间”对应的是“谨慎增持”，选项 D 将两者混淆，与证据矛盾。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fin_01",
+      "domain": "financial_reports",
+      "answer_format": "tf",
+      "question": "根据比亚迪 2025 年年度报告，2025 年营业收入为 803,964,958,000.00 元，较 2024 年 777,102,455,000.00 元增长。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 11,
+        "quote": "营业收入（元） | 803,964,958,000.00 | 777,102,455,000.00 | 3.46%"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 9751,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E6"
+            ],
+            "reason": "证据 E1 和 E6 明确显示，2025 年营业收入为 803,964,958,000.00 元，2024 年为 777,102,455,000.00 元，且本年比上年增减为 3.46%（正增长），与题干描述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E6"
+            ],
+            "reason": "证据 E1 和 E6 证实题干关于营收数值及增长的描述是正确的，因此选项 B（错误）被证伪。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fin_02",
+      "domain": "financial_reports",
+      "answer_format": "tf",
+      "question": "根据比亚迪 2025 年年度报告，2025 年归属于上市公司股东的净利润较 2024 年增长 18.97%。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "B",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 11,
+        "quote": "归属于上市公司股东的净利润（元） | 32,619,022,000.00 | 40,254,346,000.00 | -18.97%"
+      },
+      "note": "原文为 -18.97%，即下降，不是增长。"
+    },
+    "expected": "B",
+    "answers": [
+      "B"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "B",
+        "tokens": 10426,
+        "judgements": {
+          "A": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E4",
+              "E6"
+            ],
+            "reason": "证据显示2025年归属于上市公司股东的净利润较2024年变动为-18.97%（下降），而非题干所述的增长18.97%。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E4",
+              "E6"
+            ],
+            "reason": "题干说法错误，因为证据明确记载净利润同比增减为-18.97%，即下降而非增长。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "B",
+          "answer_letters": [
+            "B"
+          ],
+          "supported_letters": [
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fin_03",
+      "domain": "financial_reports",
+      "answer_format": "multi",
+      "question": "根据比亚迪 2025 年年度报告，下列关于 2025 年与 2024 年财务指标变化的说法正确的有哪些？",
+      "options": {
+        "A": "2025 年营业收入较 2024 年增长 3.46%",
+        "B": "2025 年归属于上市公司股东的净利润较 2024 年下降 18.97%",
+        "C": "2025 年研发投入占营业收入比例为 7.89%，高于 2024 年的 6.97%",
+        "D": "2025 年研发投入占营业收入比例为 6.97%，低于 2024 年的 7.89%"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 39,
+        "quote": "营业收入同比增长3.46%；归属于上市公司股东的净利润同比-18.97%；研发投入占营业收入比例 | 7.89% | 6.97% | 0.92%"
+      }
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 12201,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E9",
+              "E13",
+              "E18"
+            ],
+            "reason": "证据 E2、E9、E13、E18 均明确显示 2025 年营业收入较 2024 年增长 3.46%。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E9",
+              "E13",
+              "E17"
+            ],
+            "reason": "证据 E2、E9、E13、E17 均明确显示 2025 年归属于上市公司股东的净利润较 2024 年下降 18.97%。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E3",
+              "E4"
+            ],
+            "reason": "证据 E1、E3、E4 显示 2025 年研发投入占营业收入比例为 7.89%，2024 年为 6.97%，7.89% 高于 6.97%，表述正确。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E3",
+              "E4"
+            ],
+            "reason": "证据 E1、E3、E4 显示 2025 年比例为 7.89%，2024 年为 6.97%，选项 D 称 2025 年为 6.97% 且低于 2024 年，与事实相反。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fin_04",
+      "domain": "financial_reports",
+      "answer_format": "mcq",
+      "question": "根据比亚迪 2025 年年度报告，研发投入金额（元）2025 年较 2024 年的同比变化为？",
+      "options": {
+        "A": "增长 17.13%",
+        "B": "下降 17.13%",
+        "C": "增长 465.43%",
+        "D": "下降 18.97%"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 39,
+        "quote": "研发投入金额（元） | 63,441,379,000.00 | 54,160,964,000.00 | 17.13%"
+      },
+      "note": "C 是研发投入资本化金额的同比，不是研发投入金额。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 10406,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E9",
+              "E12"
+            ],
+            "reason": "证据 E1、E9、E12 明确列出“研发投入金额（元）”在 2025 年为 63,441,379,000.00，2024 年为 54,160,964,000.00，变动比例为 17.13%，且数值增加，故为增长 17.13%。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E9",
+              "E12"
+            ],
+            "reason": "证据显示研发投入金额从 2024 年的 541.6 亿元增加到 2025 年的 634.4 亿元，变动比例为正 17.13%，而非下降。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E10",
+              "E11"
+            ],
+            "reason": "证据 E1、E10、E11 显示 465.43% 是“研发投入资本化的金额”的同比变化比例，而非“研发投入金额”整体的变化比例。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E4",
+              "E6"
+            ],
+            "reason": "证据 E2、E4、E6 显示下降 18.97% 是“归属于上市公司股东的净利润”的同比变化，而非研发投入金额的变化。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fin_05",
+      "domain": "financial_reports",
+      "answer_format": "tf",
+      "question": "根据比亚迪 2025 年年度报告，研发投入占营业收入比例 2025 年为 7.89%，2024 年为 6.97%。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 39,
+        "quote": "研发投入占营业收入比例 | 7.89% | 6.97% | 0.92%"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 9118,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3"
+            ],
+            "reason": "证据 E3 明确列出“研发投入占营业收入比例”在 2025 年为 7.89%，2024 年为 6.97%，与题干陈述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3"
+            ],
+            "reason": "证据 E3 显示数据与题干一致，故题干说法正确，选项 B（错误）被证伪。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_ins_04",
+      "domain": "insurance",
+      "answer_format": "multi",
+      "question": "根据保险合同中犹豫期、退保及责任承担相关表述，下列说法正确的有哪些？",
+      "options": {
+        "A": "合同解除前发生的保险事故，保险人不承担保险责任",
+        "B": "犹豫期后解除合同可能会遭受一定损失",
+        "C": "犹豫期后解除合同，自收到解除合同通知书之日起 30 日内退还现金价值",
+        "D": "犹豫期后解除合同，保险人仍全额退还保险费且不会有损失"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "1",
+        "page": 11,
+        "quote": "合同解除前发生的保险事故我们不承担保险责任；您在犹豫期后解除本合同的，我们自收到解除合同通知书之日起 30 日内向您退还本合同的现金价值；您在犹豫期后解除合同可能会遭受一定损失"
+      },
+      "note": "D 与原文“退还现金价值/可能遭受损失”矛盾。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 7444,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "条款6.1明确规定：'自我们收到您解除合同的通知书时，本合同即被解除，合同解除前发生的保险事故我们不承担保险责任。'"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "条款6.2及引言部分明确指出：'您在犹豫期后解除本合同可能会遭受一定损失。'"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "条款6.2明确规定：'您在犹豫期后解除本合同的，我们自收到解除合同通知书之日起 30 日内向您退还本合同的现金价值。'"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "条款6.2规定犹豫期后退保退还的是'现金价值'且'可能会遭受一定损失'，而非全额退还保险费且无损失（全额退费仅适用于犹豫期内）。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_05",
+      "domain": "financial_contracts",
+      "answer_format": "multi",
+      "question": "根据 text02 中关于科技创新属性及募集资金的相关标准，下列说法正确的有哪些？",
+      "options": {
+        "A": "本期债券募集资金拟使用不少于 70% 用于偿还相关有息借款",
+        "B": "科技人员占企业当年职工总数的比例要求不低于 10%",
+        "C": "企业在中国境内发生的研究开发费用总额占全部研究开发费用总额的比例不低于 60%",
+        "D": "近一年高新技术产品（服务）收入占同期总收入的比例不超过 60%"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "text02",
+        "page": 33,
+        "quote": "拟使用不少于 70%的募集资金用于偿还；科技人员占企业当年职工总数的比例不低于 10%；中国境内发生的研究开发费用总额占全部研究开发费用总额的比例不低于60%；近一年高新技术产品（服务）收入占企业同期总收入的比例不低于 60%"
+      },
+      "note": "D 方向反转，原文为不低于 60%。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 9015,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E5",
+              "E6"
+            ],
+            "reason": "证据 E4、E5、E6 均明确记载：募集资金扣除发行费用后，拟使用不少于 70%的募集资金用于偿还用于投放科技创新领域租赁款的对应有息借款。选项 A 表述与证据一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E7"
+            ],
+            "reason": "证据 E7 第④条明确规定：企业从事研发和相关技术创新活动的科技人员占企业当年职工总数的比例不低于 10%。选项 B 表述与证据一致。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E7"
+            ],
+            "reason": "证据 E7 第⑤条 C 款规定：其中，企业在中国境内发生的研究开发费用总额占全部研究开发费用总额的比例不低于60%。选项 C 表述与证据一致。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E7"
+            ],
+            "reason": "证据 E7 第⑥条明确规定：近一年高新技术产品（服务）收入占企业同期总收入的比例不低于 60%。选项 D 称“不超过 60%”，与证据中的“不低于”方向相反，故错误。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text02"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_06",
+      "domain": "financial_contracts",
+      "answer_format": "multi",
+      "question": "根据 text01 募集说明书及相关规定，下列说法正确的有哪些？",
+      "options": {
+        "A": "本期债券发行金额不超过 10 亿元（含 10 亿元）",
+        "B": "发行人获准公开发行面值总额不超过 190 亿元（含 190 亿元）的公司债券",
+        "C": "发行科技创新公司债券并上市/挂牌的最近一期末资产负债率原则上不高于 70%",
+        "D": "发行科技创新公司债券并上市/挂牌的最近一期末资产负债率原则上不高于 80%"
+      },
+      "answer": "ABD",
+      "evidence": {
+        "doc_id": "text01",
+        "page": 32,
+        "quote": "本期债券发行金额不超过10亿元（含10亿元）；公开发行面值总额不超过 190亿元（含190亿元）；最近一期末资产负债率原则上不高于80%"
+      },
+      "note": "C 偷换阈值，原文为 80%。"
+    },
+    "expected": "ABD",
+    "answers": [
+      "ABD"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABD",
+        "tokens": 9824,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E3",
+              "E20"
+            ],
+            "reason": "证据E2、E3、E20明确记载本期债券发行规模不超过人民币10亿元（含10亿元）。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E7",
+              "E9",
+              "E11"
+            ],
+            "reason": "证据E1、E7、E9、E11均明确记载发行人获准公开发行面值总额不超过190亿元（含190亿元）的公司债券。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E16"
+            ],
+            "reason": "证据E16引用《深圳证券交易所公司债券发行上市审核业务指引第7号》第八十一条规定，最近一期末资产负债率原则上不高于80%，而非选项所述的70%。"
+          },
+          "D": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E16"
+            ],
+            "reason": "证据E16明确引用规定指出，发行科技创新公司债券并上市/挂牌的最近一期末资产负债率原则上不高于80%。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "ABD",
+          "answer_letters": [
+            "A",
+            "B",
+            "D"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "D"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_06",
+      "domain": "regulatory",
+      "answer_format": "multi",
+      "question": "根据 csrc_0008 关于证券从业人员登记及机构报告时限的规定，下列说法正确的有哪些？",
+      "options": {
+        "A": "应当自证券从业人员从事业务之日起 5 个工作日内向证券业协会提交材料和登记信息并办理登记",
+        "B": "证券业协会应当自登记信息完备之日起 5 个工作日内办结登记",
+        "C": "发生相关情形时，应当在知悉有关情况之日起 5 个工作日内向中国证监会相关派出机构报告",
+        "D": "发生相关情形时，应当在知悉有关情况之日起 20 个工作日内向中国证监会相关派出机构报告"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "strict_csrc_0008_att1",
+        "page": 179,
+        "quote": "应当自证券从业人员从事业务之日起 5 个工作日内……办理登记；应当自登记信息完备之日起 5 个工作日内办结登记；应当在知悉有关情况之日起 5 个工作日内向中国证监会相关派出机构报告"
+      },
+      "note": "D 偷换为 20 个工作日。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 5888,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1（第十七条）明确规定：证券公司应当自证券从业人员从事业务之日起 5 个工作日内，向证券业协会提交证明其符合条件的材料和登记信息并办理登记。选项 A 表述与法条一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1（第十七条）明确规定：证券业协会应当自登记信息完备之日起 5 个工作日内办结登记。选项 B 表述与法条一致。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E7",
+              "E8"
+            ],
+            "reason": "证据 E2（第三十二条）、E7（第十四条）、E8（第十八条）均规定在特定情形下（如知悉兼职情况、解聘决定、登记信息变化等），机构应当在知悉有关情况之日起 5 个工作日内向监管机构或协会报告/备案。选项 C 概括了“发生相关情形时...5 个工作日内...报告”的规定，符合多条证据中的时限要求。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E3",
+              "E5",
+              "E7",
+              "E8"
+            ],
+            "reason": "证据中涉及向证监会派出机构报告的时限多为 5 个工作日（如 E2、E7、E8、E16）。虽然 E3（第三十八条）和 E5（第四十条）提及 20 个工作日，但分别是针对“撤销聘任决定后报告”和“换领许可证”，而非通用的“知悉有关情况之日起 20 个工作日内报告”。对于“知悉有关情况”这一触发条件，证据 E2、E7、E8 明确指向 5 个工作日。因此选项 D 的 20 个工作日表述与“知悉有关情况”这一常见触发条件的法定时限不符，或被更具体的 5 日规定所覆盖/反驳。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0008_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_07",
+      "domain": "regulatory",
+      "answer_format": "multi",
+      "question": "根据 csrc_0008 关于股权激励授予权益的时限要求，下列说法正确的有哪些？",
+      "options": {
+        "A": "应当在 60 日内授予权益并完成公告、登记",
+        "B": "应当在条件成就后 60 日内授出权益并完成公告、登记",
+        "C": "应当在 30 日内授予权益并完成公告、登记",
+        "D": "应当在条件成就后 30 日内授出权益并完成公告、登记"
+      },
+      "answer": "AB",
+      "evidence": {
+        "doc_id": "strict_csrc_0008_att1",
+        "page": 271,
+        "quote": "应当在 60 日内授予权益并完成公告、登记；应当在条件成就后60 日内授出权益并完成公告、登记"
+      },
+      "note": "C、D 偷换 60 日为 30 日。"
+    },
+    "expected": "AB",
+    "answers": [
+      "AB"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "AB",
+        "tokens": 5644,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1（第四十二条）明确规定：'股权激励计划经股东会审议通过后，上市公司应当在 60 日内授予权益并完成公告、登记'，与选项 A 表述一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1（第四十二条）明确规定：'有获授权益条件的，应当在条件成就后60 日内授出权益并完成公告、登记'，与选项 B 表述一致。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1（第四十二条）规定的时限为 60 日，而非选项 C 所述的 30 日，故选项 C 错误。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1（第四十二条）规定的时限为条件成就后 60 日，而非选项 D 所述的 30 日，故选项 D 错误。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "AB",
+          "answer_letters": [
+            "A",
+            "B"
+          ],
+          "supported_letters": [
+            "A",
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0008_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_04",
+      "domain": "research",
+      "answer_format": "multi",
+      "question": "根据 pack2_text01 的股票投资评级标准，下列说法正确的有哪些？",
+      "options": {
+        "A": "增持对应相对沪深300指数涨幅15%以上",
+        "B": "谨慎增持对应相对沪深300指数涨幅介于5%～15%之间",
+        "C": "中性对应相对沪深300指数涨幅介于-5%～5%",
+        "D": "增持对应相对沪深300指数涨幅介于-5%～5%"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": null,
+        "quote": "股票投资评级 | 增持 | 相对沪深300指数涨幅15%以上；谨慎增持 | 相对沪深300 指数涨幅介于5%～15%之间；中性 | 相对沪深300 指数涨幅介于-5%～5%"
+      },
+      "note": "D 把中性区间错配给增持。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 8141,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 明确记载股票投资评级中“增持”对应“相对沪深300指数涨幅15%以上”，与选项 A 表述一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 明确记载股票投资评级中“谨慎增持”对应“相对沪深300 指数涨幅介于5%~15%之间”，与选项 B 表述一致。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 明确记载股票投资评级中“中性”对应“相对沪深300 指数涨幅介于-5%～5%”，与选项 C 表述一致。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 显示“增持”对应涨幅15%以上，而“-5%～5%”对应的是“中性”评级，选项 D 张冠李戴，与证据矛盾。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fin_06",
+      "domain": "financial_reports",
+      "answer_format": "multi",
+      "question": "根据比亚迪 2025 年年度报告，下列关于 2025 年与 2024 年指标变化的说法正确的有哪些？",
+      "options": {
+        "A": "营业收入从 777,102,455,000.00 元增至 803,964,958,000.00 元，同比增长 3.46%",
+        "B": "归属于上市公司股东的净利润从 40,254,346,000.00 元降至 32,619,022,000.00 元，同比下降 18.97%",
+        "C": "研发投入金额从 54,160,964,000.00 元增至 63,441,379,000.00 元，同比增长 17.13%",
+        "D": "归属于上市公司股东的净利润同比增长 18.97%"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 11,
+        "quote": "营业收入 803,964,958,000.00 / 777,102,455,000.00 / 3.46%；归属于上市公司股东的净利润 32,619,022,000.00 / 40,254,346,000.00 / -18.97%；研发投入金额 63,441,379,000.00 / 54,160,964,000.00 / 17.13%"
+      },
+      "note": "D 方向错误，原文为 -18.97%。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 11851,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E9",
+              "E12"
+            ],
+            "reason": "证据 E1、E9、E12 明确显示：2025年营业收入为 803,964,958,000.00 元，2024年为 777,102,455,000.00 元，本年比上年增减为 3.46%，与选项描述完全一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E7",
+              "E8"
+            ],
+            "reason": "证据 E1、E7、E8 明确显示：2025年归属于上市公司股东的净利润为 32,619,022,000.00 元，2024年为 40,254,346,000.00 元，同比增减为 -18.97%（即下降 18.97%），与选项描述完全一致。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E11"
+            ],
+            "reason": "证据 E2、E11 明确显示：2025年研发投入金额为 63,441,379,000.00 元，2024年为 54,160,964,000.00 元，变动比例为 17.13%，与选项描述完全一致。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E7",
+              "E8",
+              "E16",
+              "E17"
+            ],
+            "reason": "证据 E1、E7、E8、E16、E17 均显示归属于上市公司股东的净利润同比变化为 -18.97%（下降），而选项 D 称同比增长 18.97%，方向相反，故错误。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fin_07",
+      "domain": "financial_reports",
+      "answer_format": "multi",
+      "question": "根据比亚迪 2025 年年度报告研发投入相关表格，下列说法正确的有哪些？",
+      "options": {
+        "A": "2025 年研发投入占营业收入比例为 7.89%",
+        "B": "2024 年研发投入占营业收入比例为 6.97%",
+        "C": "2025 年研发投入占营业收入比例较 2024 年提升 0.92 个百分点",
+        "D": "2025 年研发投入占营业收入比例为 6.97%，2024 年为 7.89%"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 39,
+        "quote": "研发投入占营业收入比例 | 7.89% | 6.97% | 0.92%"
+      },
+      "note": "D 颠倒年份。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 9347,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ],
+            "reason": "证据 E1、E2、E3 均明确显示，2025 年研发投入占营业收入比例为 7.89%。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ],
+            "reason": "证据 E1、E2、E3 均明确显示，2024 年研发投入占营业收入比例为 6.97%。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ],
+            "reason": "证据 E1、E2、E3 显示 2025 年比例为 7.89%，2024 年为 6.97%，变动比例列显示为 0.92%（即提升 0.92 个百分点），计算 7.89% - 6.97% = 0.92%，与选项描述一致。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3"
+            ],
+            "reason": "选项 D 声称 2025 年为 6.97%、2024 年为 7.89%，这与证据中显示的 2025 年 7.89%、2024 年 6.97% 正好相反，故错误。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_08",
+      "domain": "regulatory",
+      "answer_format": "mcq",
+      "question": "根据 csrc_0002 该规章，行政许可申请材料不齐全或不符合法定形式的，逾期不补正将产生什么后果？",
+      "options": {
+        "A": "无正当理由逾期不补正的，视为撤回申请",
+        "B": "逾期不补正的，直接予以行政处罚",
+        "C": "逾期不补正的，自动视为受理",
+        "D": "逾期不补正的，延长补正期限 30 个工作日"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "strict_csrc_0002_att1",
+        "page": 3,
+        "quote": "应当在 30 个工作日内补正申请材料，无正当理由逾期不补正的，视为撤回申请"
+      },
+      "note": "原文明确为“视为撤回申请”。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 5032,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E14",
+              "E15"
+            ],
+            "reason": "证据E1、E2、E14、E15均明确引用第六条规定：'当事人应当在 30 个工作日内补正申请材料，无正当理由逾期不补正的，视为撤回申请'，与选项A表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E14",
+              "E15"
+            ],
+            "reason": "证据明确规定逾期不补正的后果是'视为撤回申请'，而非'直接予以行政处罚'，选项B与法规条文相悖。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E14",
+              "E15"
+            ],
+            "reason": "证据明确规定逾期不补正的后果是'视为撤回申请'，而非'自动视为受理'，选项C与法规条文相悖。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E14",
+              "E15"
+            ],
+            "reason": "证据规定补正期限为30个工作日，且逾期后果为视为撤回，并未规定'延长补正期限 30 个工作日'，选项D无依据且与条文规定的后果不符。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0002_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_09",
+      "domain": "regulatory",
+      "answer_format": "tf",
+      "question": "根据 csrc_0008 该办法第十一条，外商投资证券公司应当自营业执照签发之日起 15 个工作日内，向中国证监会提交文件申请经营证券业务许可证。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "strict_csrc_0008_att1",
+        "page": 151,
+        "quote": "第十一条 外商投资证券公司应当自营业执照签发之日起 15个工作日内，向中国证监会提交下列文件，申请经营证券业务许可证"
+      },
+      "note": "主体须忠实为“外商投资证券公司”，与原文一致，故正确。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 3347,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3"
+            ],
+            "reason": "证据 E3（第十一条）明确规定：'外商投资证券公司应当自营业执照签发之日起 15个工作日内，向中国证监会提交下列文件，申请经营证券业务许可证'，与题干表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3"
+            ],
+            "reason": "证据 E3 直接支持题干说法，因此选项 B（错误）被证伪。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0008_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_reg_10",
+      "domain": "regulatory",
+      "answer_format": "multi",
+      "question": "根据 csrc_0008 该办法第十一条关于申请经营证券业务许可证的规定，下列说法正确的有哪些？",
+      "options": {
+        "A": "外商投资证券公司应当自营业执照签发之日起 15 个工作日内向中国证监会提交文件申请经营证券业务许可证",
+        "B": "该规定的义务主体为外商投资证券公司",
+        "C": "所有证券公司均应自营业执照签发之日起 15 个工作日内申请经营证券业务许可证",
+        "D": "外商投资证券公司应当自营业执照签发之日起 30 个工作日内申请经营证券业务许可证"
+      },
+      "answer": "AB",
+      "evidence": {
+        "doc_id": "strict_csrc_0008_att1",
+        "page": 151,
+        "quote": "第十一条 外商投资证券公司应当自营业执照签发之日起 15个工作日内，向中国证监会提交下列文件，申请经营证券业务许可证"
+      },
+      "note": "C 把主体从“外商投资证券公司”泛化为“所有证券公司”属以偏概全；D 把 15 个工作日偷换为 30 个工作日。"
+    },
+    "expected": "AB",
+    "answers": [
+      "AB"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "AB",
+        "tokens": 4052,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2"
+            ],
+            "reason": "证据 E2（第十一条）明确规定：外商投资证券公司应当自营业执照签发之日起 15个工作日内，向中国证监会提交文件申请经营证券业务许可证，与选项 A 表述一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2"
+            ],
+            "reason": "证据 E2（第十一条）明确指出义务主体为“外商投资证券公司”，规定其应当提交申请，故选项 B 正确。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2"
+            ],
+            "reason": "证据 E2（第十一条）仅规定“外商投资证券公司”需在 15 个工作日内申请，并未规定“所有证券公司”均适用此时限和条件，选项 C 扩大了主体范围，缺乏依据且与特定条款限定不符。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2"
+            ],
+            "reason": "证据 E2（第十一条）规定的时限为“15个工作日内”，而选项 D 称“30个工作日内”，数值错误。"
+          }
+        },
+        "answer_review": {
+          "domain": "regulatory",
+          "answer": "AB",
+          "answer_letters": [
+            "A",
+            "B"
+          ],
+          "supported_letters": [
+            "A",
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "strict_csrc_0008_att1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_ins_05",
+      "domain": "insurance",
+      "answer_format": "mcq",
+      "question": "根据该保险合同释义，投保时一次性支付的保险费称为什么？",
+      "options": {
+        "A": "趸交保险费",
+        "B": "期交保险费",
+        "C": "追加保险费",
+        "D": "初始费用"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "1",
+        "page": 1,
+        "quote": "趸交保险费指投保时您一次性支付的保险费。"
+      },
+      "note": "B 是每期支付、C 是领取日前随时支付、D 是从保险费中扣除的运营成本费用。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 8879,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E8",
+              "E10"
+            ],
+            "reason": "证据E4、E8、E10中明确记载“您可以在投保时一次性支付保险费”，且条款将保险费分为趸交（文中OCR误识为泵交/足交，但语境对应一次性）、期交和追加，结合保险术语常识及上下文对比，投保时一次性支付的即为趸交保险费。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14",
+              "E8"
+            ],
+            "reason": "证据E14明确定义“期交保险费指投保人每一期支付的保险费”，证据E8指出期交是“按年或按月交纳”，与题干“一次性支付”不符。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14",
+              "E8"
+            ],
+            "reason": "证据E14定义“追加保险费指养老保险金开始领取日前您随时支付的保险费”，证据E8说明追加保险费需“申请追加”，并非投保时一次性支付的那笔初始保费。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14",
+              "E7"
+            ],
+            "reason": "证据E14定义“初始费用就是保险公司从保险费中扣除的用于支付公司各项运营成本的费用”，它是从保费中扣除的费用，而非保费本身。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_ins_06",
+      "domain": "insurance",
+      "answer_format": "tf",
+      "question": "根据该保险合同，本合同的身故保险金、失能失智护理保险金，保险人仅给付其中的一项且以一次为限。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "1",
+        "page": 5,
+        "quote": "本合同的身故保险金、失能失智护理保险金，我们仅给付其中的一项且以一次为限。"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 8722,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E5"
+            ],
+            "reason": "证据 E5 中明确记载：'本合同的身故保险金、失能失智护理保险金，我们仅给付其中的一项且以一次为限。'，与题干表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E5"
+            ],
+            "reason": "证据 E5 直接支持选项 A 的说法，因此选项 B（错误）被反驳。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_ins_07",
+      "domain": "insurance",
+      "answer_format": "tf",
+      "question": "根据该保险合同责任免除约定，被保险人自本合同成立或者效力恢复之日起 1 年内自杀的，保险人不承担给付身故保险金的责任。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "B",
+      "evidence": {
+        "doc_id": "1",
+        "page": 6,
+        "quote": "被保险人自本合同成立或者本合同效力恢复之日起 2 年内自杀，但被保险人自杀时为无民事行为能力人的除外"
+      },
+      "note": "原文为 2 年内，题干偷换成 1 年内。"
+    },
+    "expected": "B",
+    "answers": [
+      "B"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "B",
+        "tokens": 9299,
+        "judgements": {
+          "A": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E5",
+              "E14"
+            ],
+            "reason": "条款明确规定被保险人自本合同成立或者效力恢复之日起2年内自杀的，保险人不承担给付身故保险金的责任，而非题干所述的1年。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E5",
+              "E14"
+            ],
+            "reason": "题干说法与条款约定的2年免责期不符，因此题干说法错误。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "B",
+          "answer_letters": [
+            "B"
+          ],
+          "supported_letters": [
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_ins_08",
+      "domain": "insurance",
+      "answer_format": "tf",
+      "question": "根据该保险合同，若被保险人在养老保险金开始领取日之前身故，保险人按被保险人身故当时本合同的保单账户价值一次性给付身故保险金。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "1",
+        "page": 4,
+        "quote": "若被保险人在本合同约定的养老保险金开始领取日之前身故，我们按被保险人身故当时本合同的保单账户价值一次性给付身故保险金，并注销保单账户，本合同终止。"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 8175,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E18",
+              "E15",
+              "E19",
+              "E20"
+            ],
+            "reason": "证据 E18、E15、E19、E20 中条款 1.1.6 身故保险金第（一）项明确规定：若被保险人在本合同约定的养老保险金开始领取日之前身故，保险人按被保险人身故当时本合同的保单账户价值一次性给付身故保险金。题干表述与条款完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E18",
+              "E15",
+              "E19",
+              "E20"
+            ],
+            "reason": "题干说法正确，因此选项 B（错误）被证据 refute。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_ins_09",
+      "domain": "insurance",
+      "answer_format": "multi",
+      "question": "根据该保险合同释义部分，下列关于各类保险费的说法正确的有哪些？",
+      "options": {
+        "A": "趸交保险费指投保时一次性支付的保险费",
+        "B": "期交保险费指投保人每一期支付的保险费",
+        "C": "追加保险费指养老保险金开始领取日前随时支付的保险费",
+        "D": "初始费用指保险公司向受益人额外收取的保险费"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "1",
+        "page": 1,
+        "quote": "趸交保险费指投保时您一次性支付的保险费；期交保险费指投保人每一期支付的保险费；追加保险费指养老保险金开始领取日前您随时支付的保险费；初始费用就是保险公司从保险费中扣除的用于支付公司各项运营成本的费用。"
+      },
+      "note": "D 与原文“从保险费中扣除的运营成本费用”矛盾。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 8015,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E16"
+            ],
+            "reason": "证据E16明确提到“您可以在投保时一次性支付保险费”，符合趸交保险费的定义。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14"
+            ],
+            "reason": "证据E14明确定义：“期交保险费指投保人每一期支付的保险费。”"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14"
+            ],
+            "reason": "证据E14明确定义：“追加保险费指养老保险金开始领取日前您随时支付的保险费。”"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14"
+            ],
+            "reason": "证据E14明确定义：“初始费用就是保险公司从保险费中扣除的用于支付公司各项运营成本的费用”，而非向受益人额外收取。"
+          }
+        },
+        "answer_review": {
+          "domain": "insurance",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "1"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_05",
+      "domain": "research",
+      "answer_format": "mcq",
+      "question": "根据 pack2_text01 的股票投资评级标准，“减持”评级对应的标准是？",
+      "options": {
+        "A": "相对沪深300指数下跌 5% 以上",
+        "B": "相对沪深300指数涨幅介于 -5%～5%",
+        "C": "相对沪深300指数涨幅介于 5%～15%",
+        "D": "明显弱于沪深300指数"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": 26,
+        "quote": "减持 | 相对沪深300 指数下跌 5%以上"
+      },
+      "note": "B 是中性、C 是谨慎增持、D 是行业评级口径。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 7373,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 明确列出股票投资评级中“减持”对应的说明为“相对沪深300 指数下跌 5%以上”，与选项 A 表述一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 显示“相对沪深300 指数涨幅介于-5%～5%”对应的是“中性”评级，而非“减持”。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 显示“相对沪深300 指数涨幅介于5%~15%之间”对应的是“谨慎增持”评级，而非“减持”。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E14"
+            ],
+            "reason": "证据 E14 显示行业投资评级中“明显弱于沪深300 指数”对应的是行业“减持”，而题干询问的是股票投资评级，且股票评级有具体的数值标准（见选项A），故 D 不适用于股票评级或表述不精确。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_06",
+      "domain": "research",
+      "answer_format": "tf",
+      "question": "根据 pack2_text01 的行业投资评级标准，“增持”指明显强于沪深300指数。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": 26,
+        "quote": "行业投资评级 | 增持 | 明显强于沪深 300 指数"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 7770,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 中明确列出行业投资评级标准：'行业投资评级 | 增持 | 明显强于沪深 300 指数'，与题干表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1"
+            ],
+            "reason": "证据 E1 显示该说法正确，因此选项 B（错误）被证伪。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_07",
+      "domain": "research",
+      "answer_format": "tf",
+      "question": "根据 pack2_text01，投资评级以报告发布后 6 个月内的市场表现为比较标准。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "B",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": 26,
+        "quote": "以报告发布后的 12个月内的市场表现为比较标准，报告发布日后的 12个月内的公司股价（或行业指数）的涨跌幅相对同期的沪深 300指数涨跌幅为基准。"
+      },
+      "note": "原文为 12 个月，题干偷换成 6 个月。"
+    },
+    "expected": "B",
+    "answers": [
+      "B"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "B",
+        "tokens": 7651,
+        "judgements": {
+          "A": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E13"
+            ],
+            "reason": "证据 E2 和 E13 明确指出投资评级以报告发布后的 12 个月内的市场表现为比较标准，而非题干所述的 6 个月。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E13"
+            ],
+            "reason": "证据 E2 和 E13 证实比较标准为 12 个月，因此题干中“6 个月”的说法是错误的，选项 B 正确。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "B",
+          "answer_letters": [
+            "B"
+          ],
+          "supported_letters": [
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_08",
+      "domain": "research",
+      "answer_format": "multi",
+      "question": "根据 pack2_text01 的行业投资评级标准，下列对应关系正确的有哪些？",
+      "options": {
+        "A": "增持：明显强于沪深300指数",
+        "B": "中性：基本与沪深300指数持平",
+        "C": "减持：明显弱于沪深300指数",
+        "D": "减持：相对沪深300指数下跌5%以上"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": 26,
+        "quote": "行业投资评级 | 增持 | 明显强于沪深 300 指数；中性 | 基本与沪深300 指数持平；减持 | 明显弱于沪深300 指数"
+      },
+      "note": "D 用的是股票评级口径（下跌5%以上），行业评级减持为“明显弱于”。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 8124,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E6"
+            ],
+            "reason": "证据 E6 明确列出行业投资评级中“增持”对应“明显强于沪深 300 指数”，与选项 A 表述一致。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E6"
+            ],
+            "reason": "证据 E6 明确列出行业投资评级中“中性”对应“基本与沪深300 指数持平”，与选项 B 表述一致。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E6"
+            ],
+            "reason": "证据 E6 明确列出行业投资评级中“减持”对应“明显弱于沪深300 指数”，与选项 C 表述一致。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E6"
+            ],
+            "reason": "证据 E6 显示行业投资评级中“减持”的定义是“明显弱于沪深300 指数”，而“相对沪深300 指数下跌 5%以上”是证据 E1/E4 中定义的“股票投资评级”下的“减持”标准，选项 D 混淆了行业评级与股票评级的定义。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_res_09",
+      "domain": "research",
+      "answer_format": "mcq",
+      "question": "根据 pack2_text01，投资评级的基准指数是？",
+      "options": {
+        "A": "沪深300指数",
+        "B": "上证综合指数",
+        "C": "中证500指数",
+        "D": "恒生指数"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "pack2_text01",
+        "page": 26,
+        "quote": "报告发布日后的 12个月内的公司股价（或行业指数）的涨跌幅相对同期的沪深 300指数涨跌幅为基准。"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 7605,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3",
+              "E7",
+              "E13",
+              "E16"
+            ],
+            "reason": "证据 E1、E2、E3、E7、E13、E16 均明确指出投资评级（股票及行业）是以相对“沪深300指数”的涨跌幅为基准。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E7"
+            ],
+            "reason": "证据明确说明基准是沪深300指数，而非上证综合指数。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E7"
+            ],
+            "reason": "证据明确说明基准是沪深300指数，而非中证500指数。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E7"
+            ],
+            "reason": "证据明确说明基准是沪深300指数，而非恒生指数。"
+          }
+        },
+        "answer_review": {
+          "domain": "research",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "pack2_text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_07",
+      "domain": "financial_contracts",
+      "answer_format": "mcq",
+      "question": "根据 text01 募集说明书，发行人广东省广晟控股集团有限公司的主体信用评级为？",
+      "options": {
+        "A": "AAA",
+        "B": "AA+",
+        "C": "AA",
+        "D": "A-1"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "text01",
+        "page": 5,
+        "quote": "发行人主体信用等级为AAA，评级展望为稳定。"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 7953,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E8",
+              "E15",
+              "E16"
+            ],
+            "reason": "多份证据（E1, E2, E8, E15, E16）明确指出发行人广东省广晟控股集团有限公司的主体信用评级为AAA。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2"
+            ],
+            "reason": "证据显示主体评级为AAA，而非AA+。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2"
+            ],
+            "reason": "证据显示主体评级为AAA，而非AA。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2"
+            ],
+            "reason": "证据显示主体评级为AAA，A-1通常为短期债项评级且与文中AAA不符。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text01"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_08",
+      "domain": "financial_contracts",
+      "answer_format": "tf",
+      "question": "根据 text02 募集说明书，本期债券总规模不超过 5 亿元（含 5 亿元）。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "text02",
+        "page": 29,
+        "quote": "发行规模：本期债券总规模不超过 5 亿元（含 5 亿元）。"
+      }
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 7673,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3",
+              "E4"
+            ],
+            "reason": "证据 E3 和 E4 明确记载“发行规模：本期债券总规模不超过 5 亿元（含 5 亿元）”，与题干表述完全一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3",
+              "E4"
+            ],
+            "reason": "证据 E3 和 E4 证实本期债券总规模确实为不超过 5 亿元（含 5 亿元），故选项 B 认为该说法错误是不成立的。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text02"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_fc_09",
+      "domain": "financial_contracts",
+      "answer_format": "mcq",
+      "question": "根据 text02 关于专精特新企业认定标准，上年度研发费用总额占营业收入总额比重的要求是？",
+      "options": {
+        "A": "不低于 3%",
+        "B": "不低于 10%",
+        "C": "不超过 3%",
+        "D": "不低于 60%"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "text02",
+        "page": 35,
+        "quote": "上年度研发费用总额不低于 100 万元，且占营业收入总额比重不低于 3%"
+      },
+      "note": "B 是科技人员占比口径、C 反转方向、D 是境内研发费用/高新收入占比口径。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 10859,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4"
+            ],
+            "reason": "证据 E4 中明确记载省级专精特新企业认定标准之一为：'上年度研发费用总额不低于 100 万元，且占营业收入总额比重不低于 3%'，与选项 A 表述一致。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4"
+            ],
+            "reason": "证据 E4 显示省级专精特新企业研发费用占比要求为不低于 3%，而非选项 B 所述的 10%；选项 B 的数值与证据不符。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4"
+            ],
+            "reason": "证据 E4 规定研发费用占比应'不低于 3%'，而选项 C 称'不超过 3%'，方向相反，故被证据反驳。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4"
+            ],
+            "reason": "证据 E4 显示研发费用占比要求为不低于 3%，选项 D 的 60% 无依据（注：60%在证据E6中出现，但属于高新技术企业境内研发费用占比或高新产品收入占比，非专精特新研发费用占比），故被反驳。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_contracts",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "text02"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_xdoc_01",
+      "domain": "financial_reports",
+      "answer_format": "mcq",
+      "doc_ids": [
+        "annual_byd_2025_report",
+        "annual_catl_2025_report"
+      ],
+      "question": "比较比亚迪与宁德时代 2025 年度营业收入，下列说法正确的是？（比亚迪营业收入约 8039.6 亿元，宁德时代约 4237.0 亿元）",
+      "options": {
+        "A": "比亚迪 2025 年营业收入高于宁德时代",
+        "B": "宁德时代 2025 年营业收入高于比亚迪",
+        "C": "两者 2025 年营业收入基本持平",
+        "D": "比亚迪 2025 年营业收入约为宁德时代的一半"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 11,
+        "quote": "比亚迪营业收入（元）803,964,958,000.00（约8039.6亿元）；宁德时代营业收入 423,701,834 千元（约4237.0亿元）"
+      },
+      "note": "跨文档比较：8039.6亿 > 4237.0亿，比亚迪更高。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 10810,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E18"
+            ],
+            "reason": "证据 E4 和 E18 显示比亚迪 2025 年营业收入约为 8040 亿元（8039.65 亿元），题干给出宁德时代约为 4237.0 亿元，8039.6 > 4237.0，故比亚迪高于宁德时代。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E18"
+            ],
+            "reason": "证据显示比亚迪营收（约 8040 亿元）显著高于宁德时代（约 4237 亿元），故该选项错误。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E18"
+            ],
+            "reason": "两者营收相差近一倍，并非基本持平。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E18"
+            ],
+            "reason": "比亚迪营收（约 8040 亿元）约为宁德时代（约 4237 亿元）的 1.9 倍，而非一半。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report",
+          "annual_catl_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_xdoc_02",
+      "domain": "financial_reports",
+      "answer_format": "mcq",
+      "doc_ids": [
+        "annual_byd_2025_report",
+        "annual_catl_2025_report"
+      ],
+      "question": "比较比亚迪与宁德时代 2025 年度归属于上市公司股东的净利润，下列说法正确的是？（比亚迪约 326.2 亿元，宁德时代约 722.0 亿元）",
+      "options": {
+        "A": "宁德时代 2025 年净利润高于比亚迪",
+        "B": "比亚迪 2025 年净利润高于宁德时代",
+        "C": "两者 2025 年净利润基本持平",
+        "D": "比亚迪 2025 年净利润约为宁德时代的两倍"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "annual_catl_2025_report",
+        "page": 11,
+        "quote": "比亚迪归属于上市公司股东的净利润 32,619,022,000.00 元（约326.2亿元）；宁德时代归属于上市公司股东的净利润 72,201,282 千元（约722.0亿元）"
+      },
+      "note": "跨文档比较：宁德时代722.0亿 > 比亚迪326.2亿。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 8827,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E3",
+              "E4",
+              "E12"
+            ],
+            "reason": "根据E1和E3，宁德时代2025年归母净利润为722亿元（72,201,282千元）；根据E4、E12和E15，比亚迪2025年归母净利润约为326.19亿元（32,619百万元或32,619,022,000元）。722亿元 > 326.19亿元，故宁德时代净利润高于比亚迪。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E3",
+              "E4",
+              "E12"
+            ],
+            "reason": "证据显示宁德时代2025年净利润（约722亿元）高于比亚迪（约326亿元），选项B称比亚迪高于宁德时代，与事实相反。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E3",
+              "E4",
+              "E12"
+            ],
+            "reason": "两者净利润分别为722亿元和326亿元，差异巨大，并非基本持平。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E3",
+              "E4",
+              "E12"
+            ],
+            "reason": "比亚迪净利润（约326亿元）约为宁德时代（约722亿元）的45%，远非两倍；反之宁德时代约为比亚迪的2.2倍。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report",
+          "annual_catl_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_xdoc_03",
+      "domain": "financial_reports",
+      "answer_format": "tf",
+      "doc_ids": [
+        "annual_midea_2025_report",
+        "annual_catl_2025_report"
+      ],
+      "question": "美的集团 2025 年营业收入约 4564.5 亿元，高于宁德时代 2025 年营业收入约 4237.0 亿元。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "annual_midea_2025_report",
+        "page": 9,
+        "quote": "美的集团营业收入（千元）456,451,731（约4564.5亿元）；宁德时代营业收入 423,701,834 千元（约4237.0亿元）"
+      },
+      "note": "跨文档比较：4564.5亿 > 4237.0亿，正确。"
+    },
+    "expected": "A",
+    "answers": [
+      "B"
+    ],
+    "stable": true,
+    "correct": false,
+    "runs": [
+      {
+        "answer": "B",
+        "tokens": 12395,
+        "judgements": {
+          "A": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E3",
+              "E8",
+              "E14",
+              "E19"
+            ],
+            "reason": "题干称美的集团2025年营收约4564.5亿元，但证据E3、E13明确记载为4,585亿元（且E8、E14表格数据456,451,731千元换算后约为4564.5亿元，与文字披露的4585亿元存在差异，通常以文字综述或最终审计数为准，即便按4564.5亿元计，需核对宁德时代数据）；关键错误在于宁德时代2025年营收，证据E4、E19显示为423,701,834千元，即约4237.0亿元。若美的按4585亿元计，则4585 > 4237，说法看似正确；但若严格按表格E8/E14的456,451,731千元（4564.5亿元）对比宁德时代的423,701,834千元（4237.0亿元），4564."
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 0.9,
+            "evidence_ids": [
+              "E3",
+              "E13"
+            ],
+            "reason": "证据E3和E13明确披露美的集团2025年营业总收入为4,585亿元，而非题干所述的4564.5亿元。虽然E14表格显示456,451,731千元（约4564.5亿元），但报告正文综述及分部报告加总（E15，4585亿元）均指向4585亿元这一更高层级的披露值（可能涉及口径调整或表格数据为未审/中间数据，而文字为最终审定或包含其他综合收益调整等，或者单纯的文字与表格不一致时，以多次强调的文字综述为准，或者题干数值4564.5与主流披露4585不符被视为错误）。此外，若以4585亿元为准，题干数值描述不准确。在严格的财报核查中，若核心文字证据与题干数值冲突，常判错。且若考虑E3的权威性，题干数值"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "B",
+          "answer_letters": [
+            "B"
+          ],
+          "supported_letters": [
+            "B"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_catl_2025_report",
+          "annual_midea_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_xdoc_04",
+      "domain": "financial_reports",
+      "answer_format": "multi",
+      "doc_ids": [
+        "annual_byd_2025_report",
+        "annual_midea_2025_report",
+        "annual_catl_2025_report",
+        "annual_chinamobile_2025_report"
+      ],
+      "question": "根据各公司 2025 年年度报告，下列关于 2025 年度营业收入的跨公司比较说法正确的有哪些？（比亚迪约8039.6亿元、美的约4564.5亿元、宁德时代约4237.0亿元、中国移动约10501.9亿元）",
+      "options": {
+        "A": "中国移动 2025 年营业收入在四家中最高",
+        "B": "比亚迪 2025 年营业收入高于美的集团",
+        "C": "美的集团 2025 年营业收入高于宁德时代",
+        "D": "宁德时代 2025 年营业收入在四家中最高"
+      },
+      "answer": "ABC",
+      "evidence": {
+        "doc_id": "annual_chinamobile_2025_report",
+        "page": 8,
+        "quote": "中国移动营业收入 1,050,187 百万元（约10501.9亿元）；比亚迪约8039.6亿元；美的约4564.5亿元；宁德时代约4237.0亿元"
+      },
+      "note": "排序：中国移动10501.9 > 比亚迪8039.6 > 美的4564.5 > 宁德时代4237.0；D 错误。"
+    },
+    "expected": "ABC",
+    "answers": [
+      "ABC"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "ABC",
+        "tokens": 12442,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E9"
+            ],
+            "reason": "证据 E1、E2、E9 明确显示中国移动 2025 年营业收入为 10,502 亿元。题干给出其他三家公司营收（比亚迪约 8039.6 亿、美的约 4564.5 亿、宁德时代约 4237.0 亿），10,502 亿元高于其他三家，故中国移动最高。"
+          },
+          "B": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E11",
+              "E13"
+            ],
+            "reason": "证据 E11 显示比亚迪 2025 年营业收入为 8,040 亿元；证据 E13 显示美的集团 2025 年营业总收入为 4,585 亿元。8,040 > 4,585，故比亚迪高于美的。"
+          },
+          "C": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E13"
+            ],
+            "reason": "证据 E13 显示美的集团 2025 年营业总收入为 4,585 亿元。题干给出宁德时代 2025 年营业收入约 4,237.0 亿元。4,585 > 4,237，故美的高于宁德时代。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E9"
+            ],
+            "reason": "证据显示中国移动 2025 年营收为 10,502 亿元，远高于宁德时代的 4,237.0 亿元（题干数据）及比亚迪、美的，故宁德时代不是最高。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "ABC",
+          "answer_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "supported_letters": [
+            "A",
+            "B",
+            "C"
+          ],
+          "warnings": [
+            "multi 答案选项偏多，存在过度选择风险，请确认每个选项均有直接证据"
+          ],
+          "codes": [
+            "over_select"
+          ],
+          "needs_review": true
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report",
+          "annual_catl_2025_report",
+          "annual_chinamobile_2025_report",
+          "annual_midea_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_xdoc_05",
+      "domain": "financial_reports",
+      "answer_format": "mcq",
+      "doc_ids": [
+        "annual_midea_2025_report",
+        "annual_catl_2025_report"
+      ],
+      "question": "比较美的集团与宁德时代 2025 年度归属于上市公司股东的净利润，下列说法正确的是？（美的约439.5亿元，宁德时代约722.0亿元）",
+      "options": {
+        "A": "宁德时代 2025 年净利润高于美的集团",
+        "B": "美的集团 2025 年净利润高于宁德时代",
+        "C": "两者基本持平",
+        "D": "美的集团 2025 年净利润约为宁德时代的两倍"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "annual_midea_2025_report",
+        "page": 9,
+        "quote": "美的集团归属于上市公司股东的净利润 43,945,411 千元（约439.5亿元）；宁德时代 72,201,282 千元（约722.0亿元）"
+      },
+      "note": "跨文档比较：宁德时代722.0亿 > 美的439.5亿。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 10492,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E5",
+              "E8",
+              "E17",
+              "E7",
+              "E11",
+              "E12",
+              "E13",
+              "E15"
+            ],
+            "reason": "根据证据E2/E5/E8/E17，美的集团2025年归母净利润为439.5亿元（或43,945,411千元）；根据证据E7/E11/E12/E13/E15，宁德时代2025年归母净利润为722亿元（或72,201,282千元）。722亿元 > 439.5亿元，故宁德时代净利润高于美的集团。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E5",
+              "E8",
+              "E17",
+              "E7",
+              "E11",
+              "E12",
+              "E13",
+              "E15"
+            ],
+            "reason": "美的集团2025年归母净利润（439.5亿元）低于宁德时代（722亿元），选项说法与事实相反。"
+          },
+          "C": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E5",
+              "E8",
+              "E17",
+              "E7",
+              "E11",
+              "E12",
+              "E13",
+              "E15"
+            ],
+            "reason": "两者净利润分别为439.5亿元和722亿元，差距显著，并非基本持平。"
+          },
+          "D": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E2",
+              "E5",
+              "E8",
+              "E17",
+              "E7",
+              "E11",
+              "E12",
+              "E13",
+              "E15"
+            ],
+            "reason": "美的集团净利润（439.5亿元）约为宁德时代（722亿元）的0.6倍，而非两倍；且美的低于宁德，不可能是其两倍。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_catl_2025_report",
+          "annual_midea_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  },
+  {
+    "item": {
+      "qid": "gold_xdoc_06",
+      "domain": "financial_reports",
+      "answer_format": "tf",
+      "doc_ids": [
+        "annual_byd_2025_report",
+        "annual_chinamobile_2025_report"
+      ],
+      "question": "比亚迪 2025 年营业收入（约8039.6亿元）低于中国移动 2025 年营业收入（约10501.9亿元）。该说法是否正确？",
+      "options": {
+        "A": "正确",
+        "B": "错误"
+      },
+      "answer": "A",
+      "evidence": {
+        "doc_id": "annual_byd_2025_report",
+        "page": 11,
+        "quote": "比亚迪营业收入约8039.6亿元；中国移动营业收入 1,050,187 百万元（约10501.9亿元）"
+      },
+      "note": "跨文档比较：8039.6亿 < 10501.9亿，正确。"
+    },
+    "expected": "A",
+    "answers": [
+      "A"
+    ],
+    "stable": true,
+    "correct": true,
+    "runs": [
+      {
+        "answer": "A",
+        "tokens": 12225,
+        "judgements": {
+          "A": {
+            "status": "supported",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E9"
+            ],
+            "reason": "证据E4显示中国移动2025年营业收入为10,502亿元，证据E9显示比亚迪2025年营业收入为8,040亿元（题干约8039.6亿元与之吻合），8,040亿元 < 10,502亿元，故说法正确。"
+          },
+          "B": {
+            "status": "refuted",
+            "confidence": 1.0,
+            "evidence_ids": [
+              "E4",
+              "E9"
+            ],
+            "reason": "证据表明比亚迪2025年营收（8,040亿元）确实低于中国移动（10,502亿元），因此认为该说法错误的选项B被证伪。"
+          }
+        },
+        "answer_review": {
+          "domain": "financial_reports",
+          "answer": "A",
+          "answer_letters": [
+            "A"
+          ],
+          "supported_letters": [
+            "A"
+          ],
+          "warnings": [],
+          "codes": [],
+          "needs_review": false
+        },
+        "evidence_ids": [
+          "E1",
+          "E2",
+          "E3",
+          "E4",
+          "E5",
+          "E6",
+          "E7",
+          "E8",
+          "E9",
+          "E10",
+          "E11",
+          "E12",
+          "E13",
+          "E14",
+          "E15",
+          "E16",
+          "E17",
+          "E18",
+          "E19",
+          "E20"
+        ],
+        "evidence_doc_ids": [
+          "annual_byd_2025_report",
+          "annual_chinamobile_2025_report"
+        ],
+        "stop_reason": "round1_resolved",
+        "validation_issues": []
+      }
+    ]
+  }
+]

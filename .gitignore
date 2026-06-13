@@ -1,0 +1,23 @@
+# ---- Python caches ----
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# ---- Large regenerable data artifacts (exceed GitHub 100MB limit) ----
+# Raw source PDFs/HTML (re-downloadable / provided by organizer)
+raw/
+
+# Processed data: chunk stores, BM25 index, parsed pages/blocks, MinerU outputs.
+# All regenerable via script/build_index.py. Too large for GitHub.
+processed_data/
+
+# ---- Local opencode tooling (has its own node_modules) ----
+.opencode/node_modules/
+
+# ---- Secrets ----
+.env
+
+# ---- Misc ----
+*.bak
+mineru_staging/
+tmp_*.txt

@@ -1,0 +1,2 @@
+﻿qid,domain,type,answer,num_cards,num_supported,num_refuted,num_unknown,stop_reason,retrieval_quality,total_tokens
+fc_a_001,financial_contracts,multi,AC,8,0,0,0,no_new_evidence,ambiguous,9166
