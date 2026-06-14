@@ -75,3 +75,10 @@ For res_a_020 (gold=ABD, cur=A), the question asks about EV + IC industry. Evide
 
 **Realistic ceiling**: 87 + 3 (modes 1+2) + 1 (mode 3) = **~91/100**, if low+medium repairs succeed.
 
+## Update: Mode 1 实体一致性 post-filter 的实证结论
+
+按用户建议，**最窄的 entity-consistency post-filter 已实施并测试，结论：不能修 fin_a_008/015 这两题**。
+
+**实施细节**（已回退）：
+- 触发条件：`domain ∈ {financial_reports, research}` + `answer_format ∈ {multi, mcq}` + 题干含明确公司实体（海
+
